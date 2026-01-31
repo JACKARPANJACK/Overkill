@@ -13,9 +13,10 @@ public class RobotCompanion : MonoBehaviour
     [Header("Combat Settings")]
     [SerializeField] private float attackRange = 8f;
     [SerializeField] private LayerMask enemyLayer;
+    [SerializeField] private LayerMask viewBlockerMask; // NEW: Walls blind the robot
 
     [Header("Visuals")]
-    [SerializeField] private GameObject reticlePrefab;
+    [SerializeField] private GameObject reticlePrefab; 
     private GameObject activeReticle;
 
     [Header("Weapon: Minigun")]
@@ -30,7 +31,7 @@ public class RobotCompanion : MonoBehaviour
 
     [Header("Weapon: Chemical Laser")]
     [SerializeField] private LineRenderer laserRenderer;
-    [SerializeField] private Transform laserOrigin; // Ensure this is assigned to the "Mouth" or laser port
+    [SerializeField] private Transform laserOrigin;
     [SerializeField] private float laserDuration = 0.5f;
     [SerializeField] private float laserCooldown = 5f;
     [SerializeField] private float laserDamage = 50f;
@@ -51,7 +52,6 @@ public class RobotCompanion : MonoBehaviour
         if (laserRenderer != null) 
         {
             laserRenderer.enabled = false;
-            // Ensure world space is true so the line draws correctly in the world, not relative to robot rotation
             laserRenderer.useWorldSpace = true; 
         }
         
@@ -64,7 +64,7 @@ public class RobotCompanion : MonoBehaviour
 
     private void Update()
     {
-        FindClosestEnemy();
+        FindClosestVisibleEnemy(); // Updated name to reflect logic
         HandleCombat();
         UpdateReticle();
     }
@@ -92,63 +92,87 @@ public class RobotCompanion : MonoBehaviour
         }
     }
 
-    private void FindClosestEnemy()
+    private void FindClosestVisibleEnemy()
     {
         Collider2D[] potentialTargets = Physics2D.OverlapCircleAll(transform.position, attackRange, enemyLayer);
         
         float closestDistance = Mathf.Infinity;
         Transform closest = null;
-        bool foundAnyEnemy = false;
 
         foreach (var col in potentialTargets)
         {
             if (col.transform == transform) continue;
 
-            // Strict Search: Object -> Parent -> Children
+            // 1. Valid Target Check (IDamageable)
             IDamageable damageable = col.GetComponent<IDamageable>();
             if (damageable == null) damageable = col.GetComponentInParent<IDamageable>();
             if (damageable == null) damageable = col.GetComponentInChildren<IDamageable>();
             
             if (damageable != null)
             {
-                foundAnyEnemy = true;
-                float dist = Vector2.Distance(transform.position, col.transform.position);
-                if (dist < closestDistance)
+                // 2. Line of Sight Check (Blinding Logic)
+                if (HasLineOfSight(col.transform))
                 {
-                    closestDistance = dist;
-                    closest = col.transform;
+                    float dist = Vector2.Distance(transform.position, col.transform.position);
+                    if (dist < closestDistance)
+                    {
+                        closestDistance = dist;
+                        closest = col.transform;
+                    }
                 }
             }
         }
 
-        currentTarget = closest;
+        currentTarget = closest; // Only locks on if Visible
 
         if (currentTarget != null)
-        {
-            // Debug: Green line to confirm lock
             Debug.DrawLine(transform.position, currentTarget.position, Color.green);
+    }
+    
+    // NEW: Raycast check against walls
+    private bool HasLineOfSight(Transform target)
+    {
+        Vector2 direction = target.position - transform.position;
+        float distance = direction.magnitude;
+        
+        // Raycast against the Blocker Mask (Walls)
+        // If we hit something closer than the enemy, we are blinded.
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, direction.normalized, distance, viewBlockerMask);
+        
+        // If hit.collider is NOT null, it means we hit a wall before the enemy
+        if (hit.collider != null)
+        {
+            // Debug failure (optional)
+            // Debug.DrawRay(transform.position, direction.normalized * hit.distance, Color.yellow); 
+            return false;
         }
+
+        return true;
     }
 
     private void HandleCombat()
     {
         if (currentTarget == null) return;
+        
+        // Double check visibility right before firing (in case target ran behind wall during frame)
+        if (!HasLineOfSight(currentTarget)) 
+        {
+            currentTarget = null;
+            return;
+        }
 
-        // Minigun
         if (Time.time >= nextMinigunTime)
         {
             FireMinigun();
             nextMinigunTime = Time.time + minigunFireRate;
         }
 
-        // Missiles
         if (Time.time >= nextMissileTime)
         {
             FireMissile();
             nextMissileTime = Time.time + missileFireRate;
         }
 
-        // Laser
         if (Time.time >= nextLaserTime && !isLaserActive)
         {
             StartCoroutine(FireChemicalLaser());
@@ -164,17 +188,8 @@ public class RobotCompanion : MonoBehaviour
         {
             if (barrel != null) 
             {
-                // Instantiate bullet at barrel position
                 GameObject bullet = Instantiate(minigunBulletPrefab, barrel.position, barrel.rotation);
-                
-                // IMPORTANT: Ignore collision between bullet and robot to prevent self-damage or instant localized destruction
-                Collider2D robotCollider = GetComponent<Collider2D>();
-                Collider2D bulletCollider = bullet.GetComponent<Collider2D>();
-                
-                if (robotCollider != null && bulletCollider != null)
-                {
-                    Physics2D.IgnoreCollision(robotCollider, bulletCollider);
-                }
+                Physics2D.IgnoreCollision(GetComponent<Collider2D>(), bullet.GetComponent<Collider2D>());
             }
         }
     }
@@ -184,14 +199,9 @@ public class RobotCompanion : MonoBehaviour
          if (missilePrefab && missileBay)
         {
             GameObject missileObj = Instantiate(missilePrefab, missileBay.position, missileBay.rotation);
-            
-            // IMPORTANT: Ignore collision for missiles too
-            Collider2D robotCollider = GetComponent<Collider2D>();
-            Collider2D missileCollider = missileObj.GetComponent<Collider2D>();
-            if (robotCollider != null && missileCollider != null)
-            {
-                Physics2D.IgnoreCollision(robotCollider, missileCollider);
-            }
+            Collider2D robotCol = GetComponent<Collider2D>();
+            Collider2D missCol = missileObj.GetComponent<Collider2D>();
+            if(robotCol && missCol) Physics2D.IgnoreCollision(robotCol, missCol);
 
             if (currentTarget != null)
                 missileObj.GetComponent<HomingMissile>()?.SetTarget(currentTarget);
@@ -203,45 +213,37 @@ public class RobotCompanion : MonoBehaviour
         isLaserActive = true;
         laserRenderer.enabled = true;
         
-        // --- COPIED & ADAPTED FROM ESniper.cs ---
-        // 1. Set Start Position
         laserRenderer.SetPosition(0, laserOrigin.position);
         
-        // 2. Raycast Logic
-        // Calculate direction to currentTarget (better than using transform.up if the robot facing logic is laggy)
         Vector2 laserDir = (currentTarget.position - laserOrigin.position).normalized;
+        // Laser can be stopped by walls too
+        LayerMask combinedMask = enemyLayer | viewBlockerMask;
         
-        // Perform Raycast
-        RaycastHit2D hit = Physics2D.Raycast(laserOrigin.position, laserDir, attackRange, enemyLayer);
+        RaycastHit2D hit = Physics2D.Raycast(laserOrigin.position, laserDir, attackRange, combinedMask);
         
         Vector3 endPoint;
 
-        // 3. Determine End Position
         if (hit.collider != null)
         {
             endPoint = hit.point;
             
-            // Apply Damage
-            IDamageable damageable = hit.collider.GetComponent<IDamageable>();
-            if (damageable == null) damageable = hit.collider.GetComponentInParent<IDamageable>();
-            
-            if (damageable != null)
+            // Only damage if it's NOT a wall
+            // (Check if layer is contained in enemyLayer mask)
+            if (((1 << hit.collider.gameObject.layer) & enemyLayer) != 0) 
             {
-                damageable.TakeDamage(laserDamage);
-                Debug.Log($"Chemical Laser HIT: {hit.collider.name}");
+                 IDamageable damageable = hit.collider.GetComponent<IDamageable>();
+                if (damageable == null) damageable = hit.collider.GetComponentInParent<IDamageable>();
+            
+                if (damageable != null) damageable.TakeDamage(laserDamage);
             }
         }
         else
         {
-            // If we missed or target moved, shoot straight for max range
             endPoint = laserOrigin.position + (Vector3)(laserDir * attackRange);
         }
 
-        // 4. Set End Position
         laserRenderer.SetPosition(1, endPoint);
-
         yield return new WaitForSeconds(laserDuration);
-
         laserRenderer.enabled = false;
         isLaserActive = false;
     }
