@@ -3,56 +3,51 @@ using UnityEngine.SceneManagement;
 
 public class UI_Controller : MonoBehaviour
 {
-    
-    public void Awake()
-    {
-        Debug.Log(GameManager.Instance.score);
-    }
 
-    private void change_scene(string scene_name)
-    {
-        SceneManager.LoadScene(scene_name);
-    }
-
-    //All UI Button Functions Below
     public void onStartBtn()
     {
-        change_scene("SampleScene");
+        SceneManager.LoadScene("SampleScene");
     }
 
     public void onDisplayBtn()
     {
-        change_scene("DisplayScreen");
+        SceneManager.LoadScene("DisplayScreen");
 
     }
 
     public void OnAboutBtn()
     {
-        change_scene("AboutUsScreen");
+        SceneManager.LoadScene("AboutUsScreen");
     }
 
     public void onControlsBtn()
     {
-        change_scene("ControlsScreen");
+        SceneManager.LoadScene("ControlsScreen");
     }
 
     public void BackToTitle()
     {
-        change_scene("TitleScreen");
+        SceneManager.LoadScene("TitleScreen");
     }
 
     public void BackToOptions()
     {
-        change_scene("OptionsScreen");
+        SceneManager.LoadScene("OptionsScreen");
     }
+
+
 
 
     public void toggleMusic(bool toggle)
     {
         if (toggle)
+        {
             Debug.Log("Music Enabled");
+        }
         else
+        {
             Debug.Log("Music Disabled");
+        }
     }
 
     public void onExitBtn()

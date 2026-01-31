@@ -808,6 +808,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HealthBar
   slider: {fileID: 2579009432399915449}
   maxHealth: 0
+  animationSpeed: 5
   cur_health: 0
 --- !u!1001 &4163806820565086087
 PrefabInstance:
