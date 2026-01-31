@@ -215,6 +215,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HealthBar
   slider: {fileID: 1374102858569973407}
   maxHealth: 0
+  animationSpeed: 5
   cur_health: 0
 --- !u!1 &6079541343921026443
 GameObject:
@@ -300,7 +301,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &9113199592542141156
 MonoBehaviour:
   m_ObjectHideFlags: 0

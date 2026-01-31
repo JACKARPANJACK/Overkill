@@ -187,8 +187,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.25}
   m_AnchorMax: {x: 1, y: 0.75}
-  m_AnchoredPosition: {x: 0.69879913, y: 3}
-  m_SizeDelta: {x: -28.4023, y: 0}
+  m_AnchoredPosition: {x: 20.1, y: -11.8}
+  m_SizeDelta: {x: -4.7908, y: 5.247}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2895636143806728317
 GameObject:
@@ -347,8 +347,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.25}
   m_AnchorMax: {x: 1, y: 0.75}
-  m_AnchoredPosition: {x: 0, y: 2.5}
-  m_SizeDelta: {x: 0, y: 5}
+  m_AnchoredPosition: {x: 19.1613, y: -12.9974}
+  m_SizeDelta: {x: 38.3226, y: 35.9949}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5161997936388295493
 CanvasRenderer:
@@ -556,7 +556,7 @@ GameObject:
   - component: {fileID: 3855079875709583582}
   - component: {fileID: 5609353109086861663}
   m_Layer: 5
-  m_Name: Button (Legacy)
+  m_Name: PauseBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -578,7 +578,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 443, y: 160}
+  m_AnchoredPosition: {x: 399, y: 212}
   m_SizeDelta: {x: 75.451, y: 65.0569}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7691410653142918551
@@ -816,7 +816,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -386, y: 161}
+  m_AnchoredPosition: {x: -353, y: 217}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2579009432399915449
@@ -884,6 +884,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HealthBar
   slider: {fileID: 2579009432399915449}
   maxHealth: 0
+  animationSpeed: 5
   cur_health: 0
 --- !u!1001 &4163806820565086087
 PrefabInstance:

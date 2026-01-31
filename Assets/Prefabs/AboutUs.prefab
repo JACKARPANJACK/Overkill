@@ -78,11 +78,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'about us
-
-    content
-
-    here'
+  m_Text: "TEAM ZERO_ALLOC\n\nMEMBERS - \nVIVEK KESARWANI\nAPRAN PARAMANIK\nHARSH
+    KUMAR\nARYAN SOY\n"
 --- !u!1 &618204997395592209
 GameObject:
   m_ObjectHideFlags: 0
@@ -278,7 +275,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6979125138396758216}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7998264404125957904}
+        m_TargetAssemblyTypeName: UI_Controller, Assembly-CSharp
+        m_MethodName: BackToOptions
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1123214846929601175
 GameObject:
   m_ObjectHideFlags: 0
@@ -288,6 +297,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2480591907084205800}
+  - component: {fileID: 7998264404125957904}
   m_Layer: 0
   m_Name: AboutUs
   m_TagString: Untagged
@@ -312,6 +322,18 @@ Transform:
   - {fileID: 6176094831017200664}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7998264404125957904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1123214846929601175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9201149684f88e04b92ba1d0b22f153c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UI_Controller
 --- !u!1 &1318409697994856739
 GameObject:
   m_ObjectHideFlags: 0
@@ -425,7 +447,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 8, y: 156}
+  m_AnchoredPosition: {x: -31, y: 162}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1467679659994000427
@@ -458,11 +480,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 0189d6af457564c4a9bc83474586c951, type: 3}
-    m_FontSize: 30
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
-    m_MaxSize: 40
+    m_MaxSize: 50
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -504,8 +526,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 21.548584, y: 50.497498}
-  m_SizeDelta: {x: 1062.5972, y: 547.495}
+  m_AnchoredPosition: {x: 21.548584, y: 14.5461}
+  m_SizeDelta: {x: 1062.5972, y: 619.3978}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5073205625334928425
 CanvasRenderer:
@@ -702,10 +724,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 900, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
