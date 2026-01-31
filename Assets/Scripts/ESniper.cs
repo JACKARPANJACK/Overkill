@@ -1,12 +1,47 @@
-// EnemySniper.cs
 using UnityEngine;
 
 public class ESniper : EnemyBase
 {
+    [Header("Sniper Specifics")]
     public LineRenderer laserSight;
     public float chargeTime = 2.0f;
     public float damage = 50f;
+
     private float chargeTimer;
+
+    protected override void Start()
+    {
+        base.Start();
+        moveSpeed = 0f;
+        rb.constraints = RigidbodyConstraints2D.FreezePosition | RigidbodyConstraints2D.FreezeRotation;
+    }
+
+    protected override void Update()
+    {
+        if (player == null) return;
+
+        float distToPlayer = Vector2.Distance(transform.position, player.position);
+        bool canSee = CheckLineOfSight(distToPlayer);
+
+        if (distToPlayer < detectionRadius && canSee)
+        {
+            SmoothLookAt(player.position);
+
+            // If they are also close enough to shoot...
+            if (distToPlayer <= attackRange)
+            {
+                PerformAttack(); // Start charging laser
+            }
+            else
+            {
+                ResetLaser(); // Player is seen, but too far away
+            }
+        }
+        else
+        {
+            ResetLaser();
+        }
+    }
 
     protected override void PerformAttack()
     {
@@ -19,8 +54,14 @@ public class ESniper : EnemyBase
         if (chargeTimer >= chargeTime)
         {
             FireSniperShot();
-            chargeTimer = 0;
+            chargeTimer = 0; // Reset after firing
         }
+    }
+
+    private void ResetLaser()
+    {
+        laserSight.enabled = false;
+        chargeTimer = 0;
     }
 
     void FireSniperShot()
@@ -31,32 +72,25 @@ public class ESniper : EnemyBase
         foreach (RaycastHit2D hit in hits)
         {
             if (hit.collider.gameObject == gameObject) continue;
-            if (hit.collider.gameObject.layer == LayerMask.NameToLayer("Wall"))
+
+            if (hit.collider.gameObject.layer == LayerMask.NameToLayer("Obstacles"))
             {
-                Debug.Log("Sniper Hit Wall");
+                // Hit a wall, stop processing
                 break;
             }
 
+            // Check for Player
             if (hit.collider.CompareTag("Player"))
             {
                 Debug.Log("SNIPER HIT PLAYER");
                 IDamageable target = hit.collider.GetComponent<IDamageable>();
-                if (target != null) target.TakeDamage(damage);
-                break;
+                if (target != null)
+                {
+                    target.TakeDamage(damage);
+                }
+                break; // Stop ray after hitting player
             }
         }
-
         laserSight.enabled = false;
-    }
-
-    // Disable laser when not attacking
-    protected override void Update()
-    {
-        base.Update(); // Keep the movement logic!
-        if (currentState != State.Attacking)
-        {
-            laserSight.enabled = false;
-            chargeTimer = 0;
-        }
     }
 }
