@@ -2,19 +2,19 @@ using UnityEngine;
 
 public class PauseScreen : MonoBehaviour
 {
-    private HUD h;
+    private HUD hud;
     private void Awake()
     {
-        h = GetComponentInParent<HUD>();
+        hud = GetComponentInParent<HUD>();
     }
 
     public void onResumeBtn()
     {
-        h.onPauseBtn();
+        hud.onPauseBtn();
     }
 
     public void onRestartBtn()
     {
-        Debug.Log("Restart Button Pressed");
+        Debug.Log("Restart");
     }
 }

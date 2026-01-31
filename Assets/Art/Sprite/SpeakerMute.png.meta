@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a8c72250b473f4b44bfaca9d0a122cbe
+guid: af05bd1e72486ba41966f44049e6fdda
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7641589105147185702
-    second: UI_Flat_ButtonPlay01a_0
+      213: 4474847015552387413
+    second: SpeakerMute_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,12 +100,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UI_Flat_ButtonPlay01a_0
+      name: SpeakerMute_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 17
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 62a0bc3edc06c0a60800000000000000
-      internalID: 7641589105147185702
+      spriteID: 5598732e6a9d91e30800000000000000
+      internalID: 4474847015552387413
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      UI_Flat_ButtonPlay01a_0: 7641589105147185702
+      SpeakerMute_0: 4474847015552387413
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

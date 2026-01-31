@@ -7,25 +7,23 @@ public class TitleScreen : MonoBehaviour
 
     public void onStartBtn()
     {
-        Debug.Log("Start Button Pressed");
+        Debug.Log("Start Button");
     }
 
 
     public void onControlsBtn()
     {
-        Debug.Log("Controls Button Pressed");
+        Debug.Log("Controls Button");
     }
 
     public void toggleMusic(bool toggle)
     {
         if (toggle)
         {
-            // Enable music
             Debug.Log("Music Enabled");
         }
         else
         {
-            // Disable music
             Debug.Log("Music Disabled");
         }
     }
