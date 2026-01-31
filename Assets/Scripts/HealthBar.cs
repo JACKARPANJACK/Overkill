@@ -5,11 +5,8 @@ using System.Collections;
 public class HealthBar : MonoBehaviour
 {
     [SerializeField] private Slider slider;
-    [SerializeField] private int maxHealth;
-    public int cur_health;
-    private float cur_time = 0f;
-    private Coroutine healthCoroutine;
-    private void Awake()
+    public int maxHealth;
+    public void initiliaze()
     {
         slider.maxValue = maxHealth;
         slider.value = maxHealth;
@@ -25,13 +22,14 @@ public class HealthBar : MonoBehaviour
         slider.value += health;
     }
 
+
     public void Update()
     {
-        if(Time.time - cur_time >= 1)
-        {
-            DecrementHealth(1);
-            cur_time = Time.time;
-        }
+    //    if(Time.time - cur_time >= 1)
+      //  {
+          //  DecrementHealth(1);
+        //    cur_time = Time.time;
+        //}
 
     }
 
