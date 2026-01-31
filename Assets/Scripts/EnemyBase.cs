@@ -7,13 +7,13 @@ public abstract class EnemyBase : Destructible
     [SerializeField] protected State currentState = State.Guarding;
 
     [Header("AI Settings")]
-    public float detectionRadius = 8f;   // The "Hearing" Range (Turns to look)
+    public float detectionRadius = 8f;   // The "Hearing" Range
     public float attackRange = 2f;       // The "Firing" Range
     public float moveSpeed = 3f;
-    public float rotationSpeed = 5f;     // How fast they turn (Smoothness)
+    public float rotationSpeed = 5f;
 
     [Header("Vision Settings")]
-    public LayerMask viewBlockerMask;    // Set to "Obstacles"
+    public LayerMask viewBlockerMask;
     public bool neverStopsChasing = false;
 
     protected Vector2 guardPosition;
@@ -33,6 +33,22 @@ public abstract class EnemyBase : Destructible
         guardPosition = transform.position;
     }
 
+    // NEW: Override OnHit from Destructible to react to damage
+    protected override void OnHit()
+    {
+        // If we are hit while guarding or returning, wake up and fight!
+        if (currentState == State.Guarding || currentState == State.Returning)
+        {
+            currentState = State.Chasing;
+            
+            // Optional: If we want to look at the player immediately upon hit
+            if (player != null)
+            {
+                SmoothLookAt(player.position);
+            }
+        }
+    }
+
     protected virtual void Update()
     {
         if (player == null) return;
@@ -43,31 +59,22 @@ public abstract class EnemyBase : Destructible
         switch (currentState)
         {
             case State.Guarding:
-                rb.linearVelocity = Vector2.zero; // Stop moving
-
-                // BEHAVIOR: If player is close, turn to look at them!
+                rb.linearVelocity = Vector2.zero;
+                
                 if (distToPlayer < detectionRadius)
                 {
                     SmoothLookAt(player.position);
-
-                    // If we can SEE them (no wall), start chasing
-                    if (hasClearLineOfSight)
-                    {
-                        currentState = State.Chasing;
-                    }
+                    if (hasClearLineOfSight) currentState = State.Chasing;
                 }
                 break;
 
             case State.Chasing:
-                // Move towards player
                 MoveTowards(player.position);
 
-                // If in attack range AND we can see them -> Attack
                 if (distToPlayer <= attackRange && hasClearLineOfSight)
                 {
                     currentState = State.Attacking;
                 }
-                // If we lost them (Player hid behind wall) -> Go back?
                 else if (!hasClearLineOfSight && !neverStopsChasing)
                 {
                     currentState = State.Returning;
@@ -87,8 +94,7 @@ public abstract class EnemyBase : Destructible
 
             case State.Returning:
                 MoveTowards(guardPosition);
-
-                // While returning, if we hear/see player again, re-engage
+                
                 if (distToPlayer < detectionRadius)
                 {
                     SmoothLookAt(player.position);
@@ -107,7 +113,6 @@ public abstract class EnemyBase : Destructible
     {
         Vector2 direction = (targetPos - (Vector2)transform.position).normalized;
         rb.linearVelocity = direction * moveSpeed;
-        // Always look where you are going
         SmoothLookAt(targetPos);
     }
 
@@ -124,24 +129,8 @@ public abstract class EnemyBase : Destructible
     {
         Vector2 direction = (player.position - transform.position).normalized;
         RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, distance, viewBlockerMask);
-        if (hit.collider != null)
-        {
-            return false;
-        }
-        return true;
+        return hit.collider == null;
     }
 
     protected abstract void PerformAttack();
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.yellow;
-        Gizmos.DrawWireSphere(transform.position, detectionRadius);
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, attackRange);
-        if (player != null)
-        {
-            Gizmos.color = Color.cyan;
-            Gizmos.DrawLine(transform.position, player.position);
-        }
-    }
 }
