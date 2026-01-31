@@ -13,6 +13,5 @@ public class DisplayScreen : MonoBehaviour
     {
         Vector2 resolution = screenResolution[index];
         Screen.SetResolution((int)resolution.x, (int)resolution.y, Screen.fullScreen);
-        Debug.Log($"Resolution set to: {resolution.x}x{resolution.y}");
     }
 }

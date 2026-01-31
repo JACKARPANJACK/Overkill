@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 91f6708f5b331674d9453fd8743c6ecd
+guid: 885487735503d0847894e962ec6774a9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1126324709393654888
-    second: UI_Flat_Button02a_4_0
+      213: 7581421030469902528
+    second: bar-life-spritesheet-1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UI_Flat_Button02a_4_0
+      name: bar-life-spritesheet-1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 339
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 89b98d2f4ad7e50f0800000000000000
-      internalID: -1126324709393654888
+      spriteID: 0c0a5d5524e963960800000000000000
+      internalID: 7581421030469902528
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      UI_Flat_Button02a_4_0: -1126324709393654888
+      bar-life-spritesheet-1_0: 7581421030469902528
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

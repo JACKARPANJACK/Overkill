@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7e9b9a9da9650f74aa331299fc298c3e
+guid: b4c0f0022cae6ea47ba54f656f42e74e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9139968031361693330
-    second: UI_Flat_Button02a_2_0
+      213: -3928341988759342825
+    second: icon2-next-1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UI_Flat_Button02a_2_0
+      name: icon2-next-1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 30
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2967db7bf70b7de70800000000000000
-      internalID: 9139968031361693330
+      spriteID: 7117fb346c9bb79c0800000000000000
+      internalID: -3928341988759342825
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      UI_Flat_Button02a_2_0: 9139968031361693330
+      icon2-next-1_0: -3928341988759342825
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

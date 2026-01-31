@@ -10,11 +10,11 @@ public class PauseScreen : MonoBehaviour
 
     public void onResumeBtn()
     {
-        hud.onPauseBtn();
+            GameManager.Instance.ResumeGame();
     }
 
     public void onRestartBtn()
     {
-        Debug.Log("Restart");
+        GameManager.Instance.RestartLevel(); 
     }
 }

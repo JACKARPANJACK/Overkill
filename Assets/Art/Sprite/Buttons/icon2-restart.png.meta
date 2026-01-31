@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8bb4dd7d02c775a4ea53af3b0d394162
+guid: 9d19f3389f43eeb44b4f349f11b75f47
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6618702385361276304
-    second: UI_Flat_ButtonCheck01a_0
+      213: 1944865015345837898
+    second: icon2-restart_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UI_Flat_ButtonCheck01a_0
+      name: icon2-restart_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 17
-        height: 16
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 09d4d7980ca5adb50800000000000000
-      internalID: 6618702385361276304
+      spriteID: a47f5c75d6c8dfa10800000000000000
+      internalID: 1944865015345837898
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      UI_Flat_ButtonCheck01a_0: 6618702385361276304
+      icon2-restart_0: 1944865015345837898
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -215,6 +215,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HealthBar
   slider: {fileID: 1374102858569973407}
   maxHealth: 0
+  animationSpeed: 5
   cur_health: 0
 --- !u!1 &6079541343921026443
 GameObject:

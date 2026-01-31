@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: aff0c13cee8e77142b328f35f830051e
+guid: 1b13021b41077d844b61ec4ddee34651
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6946377052981140189
-    second: UI_Flat_ButtonCross01a_0
+      213: -4189941320349532783
+    second: icon2-home_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UI_Flat_ButtonCross01a_0
+      name: icon2-home_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 17
-        height: 16
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dda9dde402d766060800000000000000
-      internalID: 6946377052981140189
+      spriteID: 19db5d281965ad5c0800000000000000
+      internalID: -4189941320349532783
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      UI_Flat_ButtonCross01a_0: 6946377052981140189
+      icon2-home_0: -4189941320349532783
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
