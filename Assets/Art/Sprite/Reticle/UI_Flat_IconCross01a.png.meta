@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 98d62ce6afddb7b4890b269e133e5380
+guid: 042ed7b28b245bf46ac59f9d3df528c4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2156786232251880392
-    second: icon2-pause_0
+      213: -8078137394617387119
+    second: UI_Flat_IconCross01a_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: icon2-pause_0
+      name: UI_Flat_IconCross01a_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 96
-        height: 96
+        width: 15
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 83c6c22595e8112e0800000000000000
-      internalID: -2156786232251880392
+      spriteID: 197f703e6d0b4ef80800000000000000
+      internalID: -8078137394617387119
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      icon2-pause_0: -2156786232251880392
+      UI_Flat_IconCross01a_0: -8078137394617387119
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -7,10 +7,16 @@ public abstract class EnemyBase : Destructible
     [SerializeField] protected State currentState = State.Guarding;
 
     [Header("AI Settings")]
-    public float detectionRadius = 8f;   // The "Hearing" Range
-    public float attackRange = 2f;       // The "Firing" Range
+    public float detectionRadius = 8f;   
+    public float attackRange = 2f;       
     public float moveSpeed = 3f;
     public float rotationSpeed = 5f;
+
+    [Header("Death Settings")]
+    [SerializeField] private float explosionRadius = 3f;
+    [SerializeField] private float explosionDamage = 40f;
+    [SerializeField] private GameObject explosionEffectPrefab;
+    [SerializeField] private LayerMask damageLayers; // Layers to hit (Player, Other Enemies)
 
     [Header("Vision Settings")]
     public LayerMask viewBlockerMask;
@@ -47,6 +53,38 @@ public abstract class EnemyBase : Destructible
                 SmoothLookAt(player.position);
             }
         }
+    }
+
+    protected override void Die()
+    {
+        // 1. Splash Damage Logic
+        if (explosionRadius > 0)
+        {
+            Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, explosionRadius, damageLayers);
+            foreach (var hit in hits)
+            {
+                // Don't damage self (already dead)
+                if (hit.gameObject == gameObject) continue;
+
+                IDamageable damageable = hit.GetComponent<IDamageable>();
+                if (damageable == null) damageable = hit.GetComponentInParent<IDamageable>();
+                
+                if (damageable != null)
+                {
+                    damageable.TakeDamage(explosionDamage);
+                    Debug.Log($"Enemy Explosion hit: {hit.name}");
+                }
+            }
+        }
+
+        // 2. Visual Effect
+        if (explosionEffectPrefab != null)
+        {
+            Instantiate(explosionEffectPrefab, transform.position, Quaternion.identity);
+        }
+
+        // 3. Destroy
+        base.Die();
     }
 
     protected virtual void Update()
@@ -133,4 +171,11 @@ public abstract class EnemyBase : Destructible
     }
 
     protected abstract void PerformAttack();
+
+    private void OnDrawGizmos()
+    {
+        // Draw Explosion Radius in Editor
+        Gizmos.color = new Color(1, 0, 0, 0.3f);
+        Gizmos.DrawWireSphere(transform.position, explosionRadius);
+    }
 }

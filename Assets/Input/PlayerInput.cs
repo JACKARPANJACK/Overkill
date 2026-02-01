@@ -100,6 +100,33 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""Supression"",
+                    ""type"": ""Button"",
+                    ""id"": ""3ed24230-7413-491d-892a-0eb05c4cb630"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Lockon"",
+                    ""type"": ""Button"",
+                    ""id"": ""84da7fc6-5e30-4ccd-9dba-80fb32406e8f"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Change_Weapon"",
+                    ""type"": ""Value"",
+                    ""id"": ""cc3a219e-7c0b-4356-830a-edafd4f997a8"",
+                    ""expectedControlType"": ""Delta"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
                 }
             ],
             ""bindings"": [
@@ -212,6 +239,39 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
                     ""action"": ""Move"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""a5a49264-7e25-454f-9032-34c48eb719c2"",
+                    ""path"": ""<Mouse>/rightButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Supression"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""4534fdfd-f2e6-412f-bb36-bcea90b288f0"",
+                    ""path"": ""<Mouse>/middleButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Lockon"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""38c57fb1-990c-4f9f-9e59-37fc09483acd"",
+                    ""path"": ""<Mouse>/scroll"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Change_Weapon"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -221,6 +281,9 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
         // Player
         m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
         m_Player_Move = m_Player.FindAction("Move", throwIfNotFound: true);
+        m_Player_Supression = m_Player.FindAction("Supression", throwIfNotFound: true);
+        m_Player_Lockon = m_Player.FindAction("Lockon", throwIfNotFound: true);
+        m_Player_Change_Weapon = m_Player.FindAction("Change_Weapon", throwIfNotFound: true);
     }
 
     ~@PlayerInput()
@@ -302,6 +365,9 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
     private readonly InputActionMap m_Player;
     private List<IPlayerActions> m_PlayerActionsCallbackInterfaces = new List<IPlayerActions>();
     private readonly InputAction m_Player_Move;
+    private readonly InputAction m_Player_Supression;
+    private readonly InputAction m_Player_Lockon;
+    private readonly InputAction m_Player_Change_Weapon;
     /// <summary>
     /// Provides access to input actions defined in input action map "Player".
     /// </summary>
@@ -317,6 +383,18 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
         /// Provides access to the underlying input action "Player/Move".
         /// </summary>
         public InputAction @Move => m_Wrapper.m_Player_Move;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/Supression".
+        /// </summary>
+        public InputAction @Supression => m_Wrapper.m_Player_Supression;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/Lockon".
+        /// </summary>
+        public InputAction @Lockon => m_Wrapper.m_Player_Lockon;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/Change_Weapon".
+        /// </summary>
+        public InputAction @Change_Weapon => m_Wrapper.m_Player_Change_Weapon;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -346,6 +424,15 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
             @Move.started += instance.OnMove;
             @Move.performed += instance.OnMove;
             @Move.canceled += instance.OnMove;
+            @Supression.started += instance.OnSupression;
+            @Supression.performed += instance.OnSupression;
+            @Supression.canceled += instance.OnSupression;
+            @Lockon.started += instance.OnLockon;
+            @Lockon.performed += instance.OnLockon;
+            @Lockon.canceled += instance.OnLockon;
+            @Change_Weapon.started += instance.OnChange_Weapon;
+            @Change_Weapon.performed += instance.OnChange_Weapon;
+            @Change_Weapon.canceled += instance.OnChange_Weapon;
         }
 
         /// <summary>
@@ -360,6 +447,15 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
             @Move.started -= instance.OnMove;
             @Move.performed -= instance.OnMove;
             @Move.canceled -= instance.OnMove;
+            @Supression.started -= instance.OnSupression;
+            @Supression.performed -= instance.OnSupression;
+            @Supression.canceled -= instance.OnSupression;
+            @Lockon.started -= instance.OnLockon;
+            @Lockon.performed -= instance.OnLockon;
+            @Lockon.canceled -= instance.OnLockon;
+            @Change_Weapon.started -= instance.OnChange_Weapon;
+            @Change_Weapon.performed -= instance.OnChange_Weapon;
+            @Change_Weapon.canceled -= instance.OnChange_Weapon;
         }
 
         /// <summary>
@@ -407,5 +503,26 @@ public partial class @PlayerInput: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnMove(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Supression" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnSupression(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Lockon" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnLockon(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Change_Weapon" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnChange_Weapon(InputAction.CallbackContext context);
     }
 }

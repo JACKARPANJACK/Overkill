@@ -11,7 +11,7 @@ public class MinigunBullet : DamageDealer
         base.Start();
         rb = GetComponent<Rigidbody2D>();
         
-        // Push bullet forward immediately upon spawn
+        // Initial Velocity
         rb.linearVelocity = transform.up * speed;
     }
 

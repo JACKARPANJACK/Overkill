@@ -22,6 +22,14 @@ public class HomingMissile : DamageDealer
         
         if (target == null) FindTarget();
 
+        // Snap rotation to target immediately on spawn
+        if (target != null)
+        {
+            Vector2 dir = (target.position - transform.position).normalized;
+            float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg - 90f;
+            transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+        }
+
         // Setup Trail if assigned (TrailRenderer is usually better, but LineRenderer requested)
         if (trailRenderer != null)
         {
