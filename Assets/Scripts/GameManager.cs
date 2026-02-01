@@ -61,8 +61,8 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene("SampleScene");
     }
 
-    public void updateScore()
+    public void updateScore(int value)
     {
-        score += 10;
+        score += value;
     }
 }

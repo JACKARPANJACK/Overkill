@@ -26,10 +26,12 @@ public class DialogueBox : MonoBehaviour
     }
     void Update()
     {
-        if(isDialogueActive)
+        transform.rotation = Quaternion.Euler(0f, 0f, 0f);
+
+        if (isDialogueActive)
         {
             //if dialogue is active for more than 3 seconds then hide it
-            if (Time.time - lastDialogueTime > 3f)
+            if (Time.time - lastDialogueTime > 2f)
             {
                 hideDialogueBox();
                 isDialogueActive = false;
