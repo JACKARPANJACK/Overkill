@@ -39,11 +39,9 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(sceneName);
     }
 
-    public void RestartLevel()
-    {
-        SceneManager.LoadScene("Level_" + cur_level);
+    public void RestartLevel() => SceneManager.LoadScene("level_" + cur_level);
         
-    }
+
 
     //Call this function when player dies
     public void GameOver()

@@ -11,7 +11,7 @@ public class UI_Controller : MonoBehaviour
 
     private void change_scene(string scene_name)
     {
-        //AudioManager.Instance.PlaySFX(AudioManager.Instance.BtnClick);
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.BtnClick);
         SceneManager.LoadScene(scene_name);
     }
 
