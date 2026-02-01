@@ -1,0 +1,6692 @@
+fileFormatVersion: 2
+guid: 84b8d907a7ec2db4dac9d00dc12e7172
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8095107558955856723
+    second: slasher_0
+  - first:
+      213: 3093440947186139886
+    second: slasher_1
+  - first:
+      213: -471887756632796541
+    second: slasher_2
+  - first:
+      213: 3372216347096489467
+    second: slasher_3
+  - first:
+      213: 1108626898350738937
+    second: slasher_4
+  - first:
+      213: -6468362549152109254
+    second: slasher_5
+  - first:
+      213: -2141624805258705290
+    second: slasher_6
+  - first:
+      213: -5686174688267331413
+    second: slasher_7
+  - first:
+      213: -6162830015763838073
+    second: slasher_8
+  - first:
+      213: 2627830879610474659
+    second: slasher_9
+  - first:
+      213: -2914417663998736378
+    second: slasher_10
+  - first:
+      213: 5958743737562204653
+    second: slasher_11
+  - first:
+      213: -725614344304039310
+    second: slasher_12
+  - first:
+      213: 2142016900272176038
+    second: slasher_13
+  - first:
+      213: 2411799433277833990
+    second: slasher_14
+  - first:
+      213: -566826514540344024
+    second: slasher_15
+  - first:
+      213: 3627860368342523285
+    second: slasher_16
+  - first:
+      213: 3939280032452257049
+    second: slasher_17
+  - first:
+      213: 7207278789593090939
+    second: slasher_18
+  - first:
+      213: 8322832751291963951
+    second: slasher_19
+  - first:
+      213: 1784916630130882695
+    second: slasher_20
+  - first:
+      213: 8296341138465859562
+    second: slasher_21
+  - first:
+      213: -1049982795714407023
+    second: slasher_22
+  - first:
+      213: 4640305330156093170
+    second: slasher_23
+  - first:
+      213: 3094971081486349006
+    second: slasher_24
+  - first:
+      213: -2033604321720729544
+    second: slasher_25
+  - first:
+      213: 1668244779333410516
+    second: slasher_26
+  - first:
+      213: 6241428199138073847
+    second: slasher_27
+  - first:
+      213: 2364424462302902585
+    second: slasher_28
+  - first:
+      213: 1701857836575252438
+    second: slasher_29
+  - first:
+      213: 1056355516582881626
+    second: slasher_30
+  - first:
+      213: 6641194798968073937
+    second: slasher_31
+  - first:
+      213: -1326397642717409431
+    second: slasher_32
+  - first:
+      213: 5172023237329887135
+    second: slasher_33
+  - first:
+      213: -1169597042735545467
+    second: slasher_34
+  - first:
+      213: -8708372776195524923
+    second: slasher_35
+  - first:
+      213: -8422168005709448391
+    second: slasher_36
+  - first:
+      213: 3559255300182819300
+    second: slasher_37
+  - first:
+      213: 1484905109658552880
+    second: slasher_38
+  - first:
+      213: -5905469109616129829
+    second: slasher_39
+  - first:
+      213: -6563831767406681025
+    second: slasher_40
+  - first:
+      213: -3772151980402547357
+    second: slasher_41
+  - first:
+      213: -7967069818794182350
+    second: slasher_42
+  - first:
+      213: 333743905273978035
+    second: slasher_43
+  - first:
+      213: -2651046285243410149
+    second: slasher_44
+  - first:
+      213: 6377991639210828491
+    second: slasher_45
+  - first:
+      213: -8877737742272274824
+    second: slasher_46
+  - first:
+      213: 77598101391552425
+    second: slasher_47
+  - first:
+      213: 5153639557789710141
+    second: slasher_48
+  - first:
+      213: -774524446280063755
+    second: slasher_49
+  - first:
+      213: 3234404018322697278
+    second: slasher_50
+  - first:
+      213: -4912516693155182316
+    second: slasher_51
+  - first:
+      213: -8875034882184018703
+    second: slasher_52
+  - first:
+      213: -8978247493618969331
+    second: slasher_53
+  - first:
+      213: 4584260386231257596
+    second: slasher_54
+  - first:
+      213: 5497814277005619954
+    second: slasher_55
+  - first:
+      213: -7565150907891286483
+    second: slasher_56
+  - first:
+      213: 5909282891839132846
+    second: slasher_57
+  - first:
+      213: -2625663563794683557
+    second: slasher_58
+  - first:
+      213: 2913315956867536605
+    second: slasher_59
+  - first:
+      213: -8507321186026256062
+    second: slasher_60
+  - first:
+      213: -3090959025822583740
+    second: slasher_61
+  - first:
+      213: -3506144671808693497
+    second: slasher_62
+  - first:
+      213: 2530480709734532670
+    second: slasher_63
+  - first:
+      213: -5371926822940504011
+    second: slasher_64
+  - first:
+      213: -7253715995630732676
+    second: slasher_65
+  - first:
+      213: -7317512998962306254
+    second: slasher_66
+  - first:
+      213: -1177196916720810415
+    second: slasher_67
+  - first:
+      213: 6789289033422966938
+    second: slasher_68
+  - first:
+      213: -4744937034178705983
+    second: slasher_69
+  - first:
+      213: 711119053076313515
+    second: slasher_70
+  - first:
+      213: -6996233356371196059
+    second: slasher_71
+  - first:
+      213: -10865460867684655
+    second: slasher_72
+  - first:
+      213: 4053598055686381256
+    second: slasher_73
+  - first:
+      213: 4563715504954263863
+    second: slasher_74
+  - first:
+      213: 8795752424148429101
+    second: slasher_75
+  - first:
+      213: -8183537634531360569
+    second: slasher_76
+  - first:
+      213: 4559356833857788674
+    second: slasher_77
+  - first:
+      213: 6648694937761350771
+    second: slasher_78
+  - first:
+      213: -2295268971987947107
+    second: slasher_79
+  - first:
+      213: -128760471272376473
+    second: slasher_80
+  - first:
+      213: -8090808578712865317
+    second: slasher_81
+  - first:
+      213: 8607042558009187314
+    second: slasher_82
+  - first:
+      213: 8576285085758819773
+    second: slasher_83
+  - first:
+      213: -1368056572031289830
+    second: slasher_84
+  - first:
+      213: -426489163108326743
+    second: slasher_85
+  - first:
+      213: 1009587497645157980
+    second: slasher_86
+  - first:
+      213: -7519809077859284202
+    second: slasher_87
+  - first:
+      213: 4073470701412276212
+    second: slasher_88
+  - first:
+      213: 6896089622233290694
+    second: slasher_89
+  - first:
+      213: -293770097646248161
+    second: slasher_90
+  - first:
+      213: -724693924768084704
+    second: slasher_91
+  - first:
+      213: -7449473155036134914
+    second: slasher_92
+  - first:
+      213: 2372454473020157682
+    second: slasher_93
+  - first:
+      213: -818054761887286692
+    second: slasher_94
+  - first:
+      213: 7494558648210642522
+    second: slasher_95
+  - first:
+      213: 119609623434626578
+    second: slasher_96
+  - first:
+      213: 4667192337584401147
+    second: slasher_97
+  - first:
+      213: -4216254142650903013
+    second: slasher_98
+  - first:
+      213: 3501915416470682543
+    second: slasher_99
+  - first:
+      213: 979628811629994144
+    second: slasher_100
+  - first:
+      213: -1452411521755897373
+    second: slasher_101
+  - first:
+      213: 7536674010361551445
+    second: slasher_102
+  - first:
+      213: 5250805615261136612
+    second: slasher_103
+  - first:
+      213: 5997148816429348254
+    second: slasher_104
+  - first:
+      213: 3793454272900784585
+    second: slasher_105
+  - first:
+      213: 3919392015391238980
+    second: slasher_106
+  - first:
+      213: -3586665213220460125
+    second: slasher_107
+  - first:
+      213: -7931177548632041530
+    second: slasher_108
+  - first:
+      213: 2901123740093180822
+    second: slasher_109
+  - first:
+      213: -3820066647513114039
+    second: slasher_110
+  - first:
+      213: 3682206618055690550
+    second: slasher_111
+  - first:
+      213: 2531534579263605339
+    second: slasher_112
+  - first:
+      213: 2757819394000972355
+    second: slasher_113
+  - first:
+      213: -6340312551668124016
+    second: slasher_114
+  - first:
+      213: -1031788927701507342
+    second: slasher_115
+  - first:
+      213: -4565586838241999797
+    second: slasher_116
+  - first:
+      213: 8678648656431185689
+    second: slasher_117
+  - first:
+      213: 1449183708025823523
+    second: slasher_118
+  - first:
+      213: -8231342881246702211
+    second: slasher_119
+  - first:
+      213: -5097594458117885903
+    second: slasher_120
+  - first:
+      213: -4749590712466255349
+    second: slasher_121
+  - first:
+      213: 7973507844822569487
+    second: slasher_122
+  - first:
+      213: 6306239316834816711
+    second: slasher_123
+  - first:
+      213: -1414841626496370886
+    second: slasher_124
+  - first:
+      213: -3341557779103966560
+    second: slasher_125
+  - first:
+      213: 4606676928196416307
+    second: slasher_126
+  - first:
+      213: -64760666115090251
+    second: slasher_127
+  - first:
+      213: 1669338401899037642
+    second: slasher_128
+  - first:
+      213: -6758816085505417487
+    second: slasher_129
+  - first:
+      213: 5194593358654403654
+    second: slasher_130
+  - first:
+      213: -1610869392135088377
+    second: slasher_131
+  - first:
+      213: -8180018879463253502
+    second: slasher_132
+  - first:
+      213: 6575173657712873079
+    second: slasher_133
+  - first:
+      213: -4627251078081078936
+    second: slasher_134
+  - first:
+      213: -5558525762908259484
+    second: slasher_135
+  - first:
+      213: 354730072804670629
+    second: slasher_136
+  - first:
+      213: -7573235131603632364
+    second: slasher_137
+  - first:
+      213: -3723856168009343244
+    second: slasher_138
+  - first:
+      213: 8535951622162796946
+    second: slasher_139
+  - first:
+      213: 5424641526237308849
+    second: slasher_140
+  - first:
+      213: -2776585525740002951
+    second: slasher_141
+  - first:
+      213: 4732273263398800216
+    second: slasher_142
+  - first:
+      213: -4005245580721458836
+    second: slasher_143
+  - first:
+      213: -2331989037408362733
+    second: slasher_144
+  - first:
+      213: -1987423044053458926
+    second: slasher_145
+  - first:
+      213: 7374929294623144646
+    second: slasher_146
+  - first:
+      213: 4822275370030623017
+    second: slasher_147
+  - first:
+      213: -5788776860156645584
+    second: slasher_148
+  - first:
+      213: 6327919523705052392
+    second: slasher_149
+  - first:
+      213: -767086814031348935
+    second: slasher_150
+  - first:
+      213: -2849027959429264665
+    second: slasher_151
+  - first:
+      213: -2737522036919067261
+    second: slasher_152
+  - first:
+      213: -6736999401924924044
+    second: slasher_153
+  - first:
+      213: -3638876371671519404
+    second: slasher_154
+  - first:
+      213: 3215867831938150320
+    second: slasher_155
+  - first:
+      213: 6462113361380999263
+    second: slasher_156
+  - first:
+      213: 1598425309402560481
+    second: slasher_157
+  - first:
+      213: -2735263070733282719
+    second: slasher_158
+  - first:
+      213: -7023150617752783327
+    second: slasher_159
+  - first:
+      213: -4545507376704958346
+    second: slasher_160
+  - first:
+      213: 5554351749770205550
+    second: slasher_161
+  - first:
+      213: 3465548517512185137
+    second: slasher_162
+  - first:
+      213: -4107254309566834470
+    second: slasher_163
+  - first:
+      213: -5684473114157520852
+    second: slasher_164
+  - first:
+      213: -4473678398482858666
+    second: slasher_165
+  - first:
+      213: 8941824680973013973
+    second: slasher_166
+  - first:
+      213: -8720239257163432245
+    second: slasher_167
+  - first:
+      213: 1771648660294715877
+    second: slasher_168
+  - first:
+      213: -8852577074978616392
+    second: slasher_169
+  - first:
+      213: -184792518282882177
+    second: slasher_170
+  - first:
+      213: 6961818391751032632
+    second: slasher_171
+  - first:
+      213: -2085182591125441836
+    second: slasher_172
+  - first:
+      213: 4035412307200676319
+    second: slasher_173
+  - first:
+      213: -6009791475653545835
+    second: slasher_174
+  - first:
+      213: -5363016031218235416
+    second: slasher_175
+  - first:
+      213: -3150071684812319784
+    second: slasher_176
+  - first:
+      213: -945401001207764924
+    second: slasher_177
+  - first:
+      213: -5186319124385517484
+    second: slasher_178
+  - first:
+      213: 8187578911974746349
+    second: slasher_179
+  - first:
+      213: 4924726091708170966
+    second: slasher_180
+  - first:
+      213: 8452203255685781093
+    second: slasher_181
+  - first:
+      213: -9060236075324759572
+    second: slasher_182
+  - first:
+      213: -3573894466068017167
+    second: slasher_183
+  - first:
+      213: 9160855192329595034
+    second: slasher_184
+  - first:
+      213: 7847697077653000743
+    second: slasher_185
+  - first:
+      213: -1042421985717197566
+    second: slasher_186
+  - first:
+      213: -4661363813856455283
+    second: slasher_187
+  - first:
+      213: -3721446358461864396
+    second: slasher_188
+  - first:
+      213: -3566817349082011816
+    second: slasher_189
+  - first:
+      213: 4127667566982053569
+    second: slasher_190
+  - first:
+      213: 3032420598466088108
+    second: slasher_191
+  - first:
+      213: -356562605642648422
+    second: slasher_192
+  - first:
+      213: -1670976820088924395
+    second: slasher_193
+  - first:
+      213: 6142081247124033358
+    second: slasher_194
+  - first:
+      213: 8480564146097367043
+    second: slasher_195
+  - first:
+      213: 2274740643281059379
+    second: slasher_196
+  - first:
+      213: 8831132393988256657
+    second: slasher_197
+  - first:
+      213: -7097904718854350646
+    second: slasher_198
+  - first:
+      213: -7835210535116235569
+    second: slasher_199
+  - first:
+      213: -8533665908633529233
+    second: slasher_200
+  - first:
+      213: 877782246132813773
+    second: slasher_201
+  - first:
+      213: 1876902805053050718
+    second: slasher_202
+  - first:
+      213: 4095686404243955181
+    second: slasher_203
+  - first:
+      213: -1616151206698256044
+    second: slasher_204
+  - first:
+      213: -2991617919898344043
+    second: slasher_205
+  - first:
+      213: 7929258765151316516
+    second: slasher_206
+  - first:
+      213: 6421787812192583408
+    second: slasher_207
+  - first:
+      213: -668666766404110658
+    second: slasher_208
+  - first:
+      213: 8858484652951840444
+    second: slasher_209
+  - first:
+      213: -865765581465179549
+    second: slasher_210
+  - first:
+      213: 8611313843297552963
+    second: slasher_211
+  - first:
+      213: -3891572959154737606
+    second: slasher_212
+  - first:
+      213: -984665155496344004
+    second: slasher_213
+  - first:
+      213: -586939013189996735
+    second: slasher_214
+  - first:
+      213: -644240929302763025
+    second: slasher_215
+  - first:
+      213: 7610500641253164746
+    second: slasher_216
+  - first:
+      213: 9044552599227711328
+    second: slasher_217
+  - first:
+      213: 1877431798817634317
+    second: slasher_218
+  - first:
+      213: -4668057501163151691
+    second: slasher_219
+  - first:
+      213: 8043037611579679743
+    second: slasher_220
+  - first:
+      213: -6454419586855683269
+    second: slasher_221
+  - first:
+      213: 728982147034267071
+    second: slasher_222
+  - first:
+      213: -4159049123966056696
+    second: slasher_223
+  - first:
+      213: -2199827771874471870
+    second: slasher_224
+  - first:
+      213: -3520357834874148189
+    second: slasher_225
+  - first:
+      213: -747599466801706054
+    second: slasher_226
+  - first:
+      213: 7451929864611362497
+    second: slasher_227
+  - first:
+      213: -4841408629025315878
+    second: slasher_228
+  - first:
+      213: 5825377922031368769
+    second: slasher_229
+  - first:
+      213: 7929299899426155836
+    second: slasher_230
+  - first:
+      213: -3259183496837316358
+    second: slasher_231
+  - first:
+      213: 1426807943990415109
+    second: slasher_232
+  - first:
+      213: 2854562801997479284
+    second: slasher_233
+  - first:
+      213: 495266941705008996
+    second: slasher_234
+  - first:
+      213: 4670423257143794300
+    second: slasher_235
+  - first:
+      213: -3786453290850782330
+    second: slasher_236
+  - first:
+      213: -6304137367561706223
+    second: slasher_237
+  - first:
+      213: 6313936965479478707
+    second: slasher_238
+  - first:
+      213: -5576786775715360620
+    second: slasher_239
+  - first:
+      213: 2091421826968563066
+    second: slasher_240
+  - first:
+      213: -5397704708318356334
+    second: slasher_241
+  - first:
+      213: 5059573242023086283
+    second: slasher_242
+  - first:
+      213: -2727673995973637643
+    second: slasher_243
+  - first:
+      213: -5207370470722471593
+    second: slasher_244
+  - first:
+      213: 2599974188754180416
+    second: slasher_245
+  - first:
+      213: 2477967134419092256
+    second: slasher_246
+  - first:
+      213: 2613601728161393648
+    second: slasher_247
+  - first:
+      213: -2262885722633560756
+    second: slasher_248
+  - first:
+      213: 4273680244467238122
+    second: slasher_249
+  - first:
+      213: 186737323010567549
+    second: slasher_250
+  - first:
+      213: 7475949502963668426
+    second: slasher_251
+  - first:
+      213: 8961817267129511210
+    second: slasher_252
+  - first:
+      213: 603771368889687323
+    second: slasher_253
+  - first:
+      213: 3933712563092579993
+    second: slasher_254
+  - first:
+      213: -4506812891327074791
+    second: slasher_255
+  - first:
+      213: -1354523866184456375
+    second: slasher_256
+  - first:
+      213: 728120996283865302
+    second: slasher_257
+  - first:
+      213: -4804278868726428816
+    second: slasher_258
+  - first:
+      213: 8252584507790232075
+    second: slasher_259
+  - first:
+      213: -9127248287370281563
+    second: slasher_260
+  - first:
+      213: -4959101697640619969
+    second: slasher_261
+  - first:
+      213: -4935364266992501652
+    second: slasher_262
+  - first:
+      213: -7142276684817645093
+    second: slasher_263
+  - first:
+      213: 8151266468558939965
+    second: slasher_264
+  - first:
+      213: -8820514998585865089
+    second: slasher_265
+  - first:
+      213: -2749683915927195887
+    second: slasher_266
+  - first:
+      213: 6243411795279897963
+    second: slasher_267
+  - first:
+      213: 846295187548034196
+    second: slasher_268
+  - first:
+      213: -7665824274802660963
+    second: slasher_269
+  - first:
+      213: 7547626888517336744
+    second: slasher_270
+  - first:
+      213: 7501071372159480619
+    second: slasher_271
+  - first:
+      213: 3015450553556972987
+    second: slasher_272
+  - first:
+      213: 290681600801168948
+    second: slasher_273
+  - first:
+      213: 6677845620633115634
+    second: slasher_274
+  - first:
+      213: -3447534345872356874
+    second: slasher_275
+  - first:
+      213: -3786100910371287725
+    second: slasher_276
+  - first:
+      213: 4654008732633070271
+    second: slasher_277
+  - first:
+      213: -1552736828447017641
+    second: slasher_278
+  - first:
+      213: -3019852979296456893
+    second: slasher_279
+  - first:
+      213: 7012443383299965320
+    second: slasher_280
+  - first:
+      213: -7038856773712233769
+    second: slasher_281
+  - first:
+      213: -5784974206619839781
+    second: slasher_282
+  - first:
+      213: -2899084519623392893
+    second: slasher_283
+  - first:
+      213: 3937904346398407207
+    second: slasher_284
+  - first:
+      213: 1815005515843978978
+    second: slasher_285
+  - first:
+      213: -8207399193898132961
+    second: slasher_286
+  - first:
+      213: 2732358640028604871
+    second: slasher_287
+  - first:
+      213: -4629522091089580590
+    second: slasher_288
+  - first:
+      213: -4725811536335767813
+    second: slasher_289
+  - first:
+      213: 3645198221228910038
+    second: slasher_290
+  - first:
+      213: -9038798059663559508
+    second: slasher_291
+  - first:
+      213: 3430562745842699186
+    second: slasher_292
+  - first:
+      213: -3502253799711818704
+    second: slasher_293
+  - first:
+      213: -1905271352069584700
+    second: slasher_294
+  - first:
+      213: 1086719954229507453
+    second: slasher_295
+  - first:
+      213: 7575559453823239520
+    second: slasher_296
+  - first:
+      213: 6307626376469936717
+    second: slasher_297
+  - first:
+      213: -8525568387720879927
+    second: slasher_298
+  - first:
+      213: 2435208608427209066
+    second: slasher_299
+  - first:
+      213: -7016797750541530996
+    second: slasher_300
+  - first:
+      213: 9146002325760693289
+    second: slasher_301
+  - first:
+      213: 3492285272525799446
+    second: slasher_302
+  - first:
+      213: 1930230177799709625
+    second: slasher_303
+  - first:
+      213: 233620152686811326
+    second: slasher_304
+  - first:
+      213: 1879175220347216655
+    second: slasher_305
+  - first:
+      213: -4053903109840531499
+    second: slasher_306
+  - first:
+      213: -2252742067775036399
+    second: slasher_307
+  - first:
+      213: -3945552151130177812
+    second: slasher_308
+  - first:
+      213: 1095925326027626605
+    second: slasher_309
+  - first:
+      213: 1455823592397057889
+    second: slasher_310
+  - first:
+      213: -2305635346337321028
+    second: slasher_311
+  - first:
+      213: -5557023443192649306
+    second: slasher_312
+  - first:
+      213: 3044446444849300285
+    second: slasher_313
+  - first:
+      213: -4190761541782624050
+    second: slasher_314
+  - first:
+      213: -6171836496960191922
+    second: slasher_315
+  - first:
+      213: -915332180348679000
+    second: slasher_316
+  - first:
+      213: -3176991076188591756
+    second: slasher_317
+  - first:
+      213: 5735252762178277332
+    second: slasher_318
+  - first:
+      213: -5376337071964792212
+    second: slasher_319
+  - first:
+      213: -4065394495707060645
+    second: slasher_320
+  - first:
+      213: -1744675963210221791
+    second: slasher_321
+  - first:
+      213: -8639610944608221406
+    second: slasher_322
+  - first:
+      213: -2553634005802706152
+    second: slasher_323
+  - first:
+      213: -8311207017156433007
+    second: slasher_324
+  - first:
+      213: 6722763520756457652
+    second: slasher_325
+  - first:
+      213: -7146225000945896615
+    second: slasher_326
+  - first:
+      213: 1093002240001573236
+    second: slasher_327
+  - first:
+      213: -3517337514598220063
+    second: slasher_328
+  - first:
+      213: 812233880788053408
+    second: slasher_329
+  - first:
+      213: 1116651340764770722
+    second: slasher_330
+  - first:
+      213: -587140458002697789
+    second: slasher_331
+  - first:
+      213: -5976774361863274083
+    second: slasher_332
+  - first:
+      213: -6460954424146888587
+    second: slasher_333
+  - first:
+      213: -8799084753033191796
+    second: slasher_334
+  - first:
+      213: -986366760692732805
+    second: slasher_335
+  - first:
+      213: 7761939345814114727
+    second: slasher_336
+  - first:
+      213: -7362480967190037784
+    second: slasher_337
+  - first:
+      213: 3639097087796683257
+    second: slasher_338
+  - first:
+      213: 5291640985975853707
+    second: slasher_339
+  - first:
+      213: -4673743902171092999
+    second: slasher_340
+  - first:
+      213: -7345583121996830738
+    second: slasher_341
+  - first:
+      213: -8013285659376536471
+    second: slasher_342
+  - first:
+      213: -625313937853957140
+    second: slasher_343
+  - first:
+      213: -4637192174473183154
+    second: slasher_344
+  - first:
+      213: -5644588695356968289
+    second: slasher_345
+  - first:
+      213: 4373677688689626269
+    second: slasher_346
+  - first:
+      213: -6852312006439729183
+    second: slasher_347
+  - first:
+      213: 6623523260908403329
+    second: slasher_348
+  - first:
+      213: 1103459181402972408
+    second: slasher_349
+  - first:
+      213: -495038284648005532
+    second: slasher_350
+  - first:
+      213: -188685079922859120
+    second: slasher_351
+  - first:
+      213: -341206300850629088
+    second: slasher_352
+  - first:
+      213: 7827775239675464387
+    second: slasher_353
+  - first:
+      213: 4448848369450527684
+    second: slasher_354
+  - first:
+      213: -2080616296974687372
+    second: slasher_355
+  - first:
+      213: 426566179087150949
+    second: slasher_356
+  - first:
+      213: -5938170042718868893
+    second: slasher_357
+  - first:
+      213: 8560716804027859172
+    second: slasher_358
+  - first:
+      213: 3767965522577117889
+    second: slasher_359
+  - first:
+      213: 8898004131964999753
+    second: slasher_360
+  - first:
+      213: 8539445371185582675
+    second: slasher_361
+  - first:
+      213: 4350938351587521568
+    second: slasher_362
+  - first:
+      213: 6257435614518278486
+    second: slasher_363
+  - first:
+      213: -2767894601125271931
+    second: slasher_364
+  - first:
+      213: 7595628400763464143
+    second: slasher_365
+  - first:
+      213: -5363073005269638442
+    second: slasher_366
+  - first:
+      213: -2355969743693124365
+    second: slasher_367
+  - first:
+      213: -1827409327390298783
+    second: slasher_368
+  - first:
+      213: -3711401474583599478
+    second: slasher_369
+  - first:
+      213: -7402502847534410077
+    second: slasher_370
+  - first:
+      213: -243786822057815324
+    second: slasher_371
+  - first:
+      213: 2322677089359896243
+    second: slasher_372
+  - first:
+      213: -2795809166527591758
+    second: slasher_373
+  - first:
+      213: 3054025631959525553
+    second: slasher_374
+  - first:
+      213: 7805631588030261234
+    second: slasher_375
+  - first:
+      213: -369963431200601472
+    second: slasher_376
+  - first:
+      213: -1965386977840882481
+    second: slasher_377
+  - first:
+      213: -6150299612752522998
+    second: slasher_378
+  - first:
+      213: -1243317021259118420
+    second: slasher_379
+  - first:
+      213: -2915322918046725888
+    second: slasher_380
+  - first:
+      213: 6411261931020901549
+    second: slasher_381
+  - first:
+      213: -9133288071589078802
+    second: slasher_382
+  - first:
+      213: -2708596993847819532
+    second: slasher_383
+  - first:
+      213: -4061774545044485981
+    second: slasher_384
+  - first:
+      213: -3528822344182668053
+    second: slasher_385
+  - first:
+      213: -512552724734292736
+    second: slasher_386
+  - first:
+      213: -3239116312789146750
+    second: slasher_387
+  - first:
+      213: -5396423545346747130
+    second: slasher_388
+  - first:
+      213: 857033270790866143
+    second: slasher_389
+  - first:
+      213: -2045312568258711856
+    second: slasher_390
+  - first:
+      213: -3625762750274382910
+    second: slasher_391
+  - first:
+      213: 5309949934178399846
+    second: slasher_392
+  - first:
+      213: -6331134831624853513
+    second: slasher_393
+  - first:
+      213: -608836113472233265
+    second: slasher_394
+  - first:
+      213: -3365935235893061137
+    second: slasher_395
+  - first:
+      213: -4401876301474985571
+    second: slasher_396
+  - first:
+      213: 9145658157649923043
+    second: slasher_397
+  - first:
+      213: -1898486006482782185
+    second: slasher_398
+  - first:
+      213: 5412644330713255549
+    second: slasher_399
+  - first:
+      213: -5434630094409054535
+    second: slasher_400
+  - first:
+      213: 7652016750875168098
+    second: slasher_401
+  - first:
+      213: 3776433343270730006
+    second: slasher_402
+  - first:
+      213: -481274563821222275
+    second: slasher_403
+  - first:
+      213: 706143490777352304
+    second: slasher_404
+  - first:
+      213: 6928971764443982652
+    second: slasher_405
+  - first:
+      213: 217582865235310615
+    second: slasher_406
+  - first:
+      213: 3359586066567531751
+    second: slasher_407
+  - first:
+      213: 5942267668696618204
+    second: slasher_408
+  - first:
+      213: -1074708635556061339
+    second: slasher_409
+  - first:
+      213: -5096919611153817259
+    second: slasher_410
+  - first:
+      213: 8772788026716732091
+    second: slasher_411
+  - first:
+      213: -337978301326324568
+    second: slasher_412
+  - first:
+      213: -5106185042720838282
+    second: slasher_413
+  - first:
+      213: -821957665405923813
+    second: slasher_414
+  - first:
+      213: 2810995107848771539
+    second: slasher_415
+  - first:
+      213: -8112939671395640010
+    second: slasher_416
+  - first:
+      213: -5771994555119611090
+    second: slasher_417
+  - first:
+      213: -8447887153505925720
+    second: slasher_418
+  - first:
+      213: 3271777241403970077
+    second: slasher_419
+  - first:
+      213: -576754759384800825
+    second: slasher_420
+  - first:
+      213: -2335651204290545703
+    second: slasher_421
+  - first:
+      213: -6386258988342148952
+    second: slasher_422
+  - first:
+      213: 3337357590720996892
+    second: slasher_423
+  - first:
+      213: 9084163958954892079
+    second: slasher_424
+  - first:
+      213: 5862767344851853650
+    second: slasher_425
+  - first:
+      213: -1219823873437196561
+    second: slasher_426
+  - first:
+      213: -1682577528756951355
+    second: slasher_427
+  - first:
+      213: 4198590436877068131
+    second: slasher_428
+  - first:
+      213: -35029106253692174
+    second: slasher_429
+  - first:
+      213: 1190435818937460611
+    second: slasher_430
+  - first:
+      213: -3331194182742537759
+    second: slasher_431
+  - first:
+      213: 2529918173152221019
+    second: slasher_432
+  - first:
+      213: -8737258640523774820
+    second: slasher_433
+  - first:
+      213: 5229166363279834211
+    second: slasher_434
+  - first:
+      213: -1731964849521642490
+    second: slasher_435
+  - first:
+      213: -8683752931311757569
+    second: slasher_436
+  - first:
+      213: -3870688734726912327
+    second: slasher_437
+  - first:
+      213: 4547676644651571678
+    second: slasher_438
+  - first:
+      213: 1098585613923787204
+    second: slasher_439
+  - first:
+      213: 6424856937992233621
+    second: slasher_440
+  - first:
+      213: 7051170209767426183
+    second: slasher_441
+  - first:
+      213: 6735571710703408077
+    second: slasher_442
+  - first:
+      213: -7919767124920134689
+    second: slasher_443
+  - first:
+      213: -4195115151600787412
+    second: slasher_444
+  - first:
+      213: 9076010053265555469
+    second: slasher_445
+  - first:
+      213: -7766626897715089370
+    second: slasher_446
+  - first:
+      213: 8041702483462916145
+    second: slasher_447
+  - first:
+      213: -6554203111829328614
+    second: slasher_448
+  - first:
+      213: -6842432255446974428
+    second: slasher_449
+  - first:
+      213: -1365595190767962584
+    second: slasher_450
+  - first:
+      213: -693428851872306946
+    second: slasher_451
+  - first:
+      213: 915388048070178523
+    second: slasher_452
+  - first:
+      213: -397602976986675050
+    second: slasher_453
+  - first:
+      213: -3710458993552447212
+    second: slasher_454
+  - first:
+      213: 6930339029473035108
+    second: slasher_455
+  - first:
+      213: 9162548064504450599
+    second: slasher_456
+  - first:
+      213: -7452155096137071845
+    second: slasher_457
+  - first:
+      213: -6127568055932929975
+    second: slasher_458
+  - first:
+      213: -7691286851649528715
+    second: slasher_459
+  - first:
+      213: 2883688567649546440
+    second: slasher_460
+  - first:
+      213: 8314995471133185941
+    second: slasher_461
+  - first:
+      213: -7777221550814007505
+    second: slasher_462
+  - first:
+      213: 8929953123238638481
+    second: slasher_463
+  - first:
+      213: -938523802320921390
+    second: slasher_464
+  - first:
+      213: 2424934187470592536
+    second: slasher_465
+  - first:
+      213: 5792237512000107186
+    second: slasher_466
+  - first:
+      213: 7026817867883794831
+    second: slasher_467
+  - first:
+      213: 7896229014660632149
+    second: slasher_468
+  - first:
+      213: 8665443002902161951
+    second: slasher_469
+  - first:
+      213: 1632208112453602640
+    second: slasher_470
+  - first:
+      213: -5219485829636981774
+    second: slasher_471
+  - first:
+      213: -835844989770086407
+    second: slasher_472
+  - first:
+      213: 7259464402438909712
+    second: slasher_473
+  - first:
+      213: -226568409563742211
+    second: slasher_474
+  - first:
+      213: 6504640263196228762
+    second: slasher_475
+  - first:
+      213: 3887251685309138506
+    second: slasher_476
+  - first:
+      213: 2047539035933414240
+    second: slasher_477
+  - first:
+      213: 9055189835849106569
+    second: slasher_478
+  - first:
+      213: 9151460716199498220
+    second: slasher_479
+  - first:
+      213: 5781006249136994281
+    second: slasher_480
+  - first:
+      213: 1790499791195663801
+    second: slasher_481
+  - first:
+      213: -9193571432831760769
+    second: slasher_482
+  - first:
+      213: 238702878200455997
+    second: slasher_483
+  - first:
+      213: 2365481165690185966
+    second: slasher_484
+  - first:
+      213: -4888394702008515759
+    second: slasher_485
+  - first:
+      213: 1012758456376803175
+    second: slasher_486
+  - first:
+      213: -247607748822433330
+    second: slasher_487
+  - first:
+      213: -6310578243097697315
+    second: slasher_488
+  - first:
+      213: -2802887527578015881
+    second: slasher_489
+  - first:
+      213: -5479036306033563271
+    second: slasher_490
+  - first:
+      213: 5111051189550237043
+    second: slasher_491
+  - first:
+      213: 2699389945627680214
+    second: slasher_492
+  - first:
+      213: 8192739899461766725
+    second: slasher_493
+  - first:
+      213: 5046112467429016032
+    second: slasher_494
+  - first:
+      213: 4934046414329915681
+    second: slasher_495
+  - first:
+      213: -224199539079210404
+    second: slasher_496
+  - first:
+      213: 4679898262449581733
+    second: slasher_497
+  - first:
+      213: 5756231188249008671
+    second: slasher_498
+  - first:
+      213: -2455017055613781908
+    second: slasher_499
+  - first:
+      213: -2398343520508810394
+    second: slasher_500
+  - first:
+      213: -3903428745483312740
+    second: slasher_501
+  - first:
+      213: -7525219209901957636
+    second: slasher_502
+  - first:
+      213: 5818252627936720129
+    second: slasher_503
+  - first:
+      213: -2954010758250220479
+    second: slasher_504
+  - first:
+      213: -5499799003427135135
+    second: slasher_505
+  - first:
+      213: 6591813691864100823
+    second: slasher_506
+  - first:
+      213: -2130649643262204377
+    second: slasher_507
+  - first:
+      213: -8474399007793001590
+    second: slasher_508
+  - first:
+      213: 6452182779191310097
+    second: slasher_509
+  - first:
+      213: 5177624518604193985
+    second: slasher_510
+  - first:
+      213: -5336917121681922900
+    second: slasher_511
+  - first:
+      213: -2848493709376914867
+    second: slasher_512
+  - first:
+      213: -5735595556399210796
+    second: slasher_513
+  - first:
+      213: 3857890586275737419
+    second: slasher_514
+  - first:
+      213: 8821682004030166276
+    second: slasher_515
+  - first:
+      213: 654732895748015268
+    second: slasher_516
+  - first:
+      213: 3050526922691006538
+    second: slasher_517
+  - first:
+      213: -4162015434898280428
+    second: slasher_518
+  - first:
+      213: -9220277524473206979
+    second: slasher_519
+  - first:
+      213: 4449832500458254828
+    second: slasher_520
+  - first:
+      213: 4305566725654963237
+    second: slasher_521
+  - first:
+      213: -5121911282449609157
+    second: slasher_522
+  - first:
+      213: -6799170819265201995
+    second: slasher_523
+  - first:
+      213: -3657783141659533575
+    second: slasher_524
+  - first:
+      213: 7842750375867287114
+    second: slasher_525
+  - first:
+      213: -2173819015325200242
+    second: slasher_526
+  - first:
+      213: -6132563479402516128
+    second: slasher_527
+  - first:
+      213: 5870475496757373874
+    second: slasher_528
+  - first:
+      213: -8325812829135923821
+    second: slasher_529
+  - first:
+      213: -2941240480894535799
+    second: slasher_530
+  - first:
+      213: 3802800208979163713
+    second: slasher_531
+  - first:
+      213: 7840961647752847403
+    second: slasher_532
+  - first:
+      213: -7082452573685266068
+    second: slasher_533
+  - first:
+      213: 7157125292463996422
+    second: slasher_534
+  - first:
+      213: 292741613213022905
+    second: slasher_535
+  - first:
+      213: 1152426500237267333
+    second: slasher_536
+  - first:
+      213: -5084913079588384956
+    second: slasher_537
+  - first:
+      213: 712236707509790972
+    second: slasher_538
+  - first:
+      213: -6241154859759876390
+    second: slasher_539
+  - first:
+      213: 3129519220131809619
+    second: slasher_540
+  - first:
+      213: -3109569738344497947
+    second: slasher_541
+  - first:
+      213: 1744784530922471142
+    second: slasher_542
+  - first:
+      213: -2805163442273553057
+    second: slasher_543
+  - first:
+      213: 1748885727955831795
+    second: slasher_544
+  - first:
+      213: -2717160325028555236
+    second: slasher_545
+  - first:
+      213: -5047359729303640917
+    second: slasher_546
+  - first:
+      213: -5554231201354533069
+    second: slasher_547
+  - first:
+      213: 2005270867370588805
+    second: slasher_548
+  - first:
+      213: -8909289533602096912
+    second: slasher_549
+  - first:
+      213: -3445769028159073365
+    second: slasher_550
+  - first:
+      213: -2260915836799320377
+    second: slasher_551
+  - first:
+      213: 8880178585142565612
+    second: slasher_552
+  - first:
+      213: 2036042196609866688
+    second: slasher_553
+  - first:
+      213: -3169883971854955849
+    second: slasher_554
+  - first:
+      213: 2653486340083871707
+    second: slasher_555
+  - first:
+      213: -2808538648246265457
+    second: slasher_556
+  - first:
+      213: -8195985130702653965
+    second: slasher_557
+  - first:
+      213: -2343863799562345525
+    second: slasher_558
+  - first:
+      213: -7188149736627306045
+    second: slasher_559
+  - first:
+      213: 1224637645946075713
+    second: slasher_560
+  - first:
+      213: 2696186196271858460
+    second: slasher_561
+  - first:
+      213: 8319938406266653757
+    second: slasher_562
+  - first:
+      213: -7252382468383858522
+    second: slasher_563
+  - first:
+      213: -5746003246692398834
+    second: slasher_564
+  - first:
+      213: -7337846899288604586
+    second: slasher_565
+  - first:
+      213: 5314884993589871998
+    second: slasher_566
+  - first:
+      213: -2500310586901312543
+    second: slasher_567
+  - first:
+      213: -9164418452307427642
+    second: slasher_568
+  - first:
+      213: -4021164648186965325
+    second: slasher_569
+  - first:
+      213: 7195694666870233298
+    second: slasher_570
+  - first:
+      213: 7373518544249495319
+    second: slasher_571
+  - first:
+      213: 4012257427077518817
+    second: slasher_572
+  - first:
+      213: -8626218611273527085
+    second: slasher_573
+  - first:
+      213: -6732364260523353630
+    second: slasher_574
+  - first:
+      213: -2945813612597195711
+    second: slasher_575
+  - first:
+      213: 4401686956442401334
+    second: slasher_576
+  - first:
+      213: -8545286447580202026
+    second: slasher_577
+  - first:
+      213: -4878352298053120072
+    second: slasher_578
+  - first:
+      213: 8956600217956899948
+    second: slasher_579
+  - first:
+      213: -3523482240373850221
+    second: slasher_580
+  - first:
+      213: 8659882911164949182
+    second: slasher_581
+  - first:
+      213: 6745845652823727599
+    second: slasher_582
+  - first:
+      213: 6668006349868057107
+    second: slasher_583
+  - first:
+      213: -2937485745284226719
+    second: slasher_584
+  - first:
+      213: 3849388931974994773
+    second: slasher_585
+  - first:
+      213: 3280917602245910169
+    second: slasher_586
+  - first:
+      213: 2105877575566159425
+    second: slasher_587
+  - first:
+      213: 8007820090984175572
+    second: slasher_588
+  - first:
+      213: 6070030322864881688
+    second: slasher_589
+  - first:
+      213: 8806122744667320742
+    second: slasher_590
+  - first:
+      213: -1656361837455936007
+    second: slasher_591
+  - first:
+      213: 3243182725424472685
+    second: slasher_592
+  - first:
+      213: 5247797681589563837
+    second: slasher_593
+  - first:
+      213: 8548182329889245970
+    second: slasher_594
+  - first:
+      213: -1296586422872245547
+    second: slasher_595
+  - first:
+      213: 5239299642556576384
+    second: slasher_596
+  - first:
+      213: 7733768151428202968
+    second: slasher_597
+  - first:
+      213: 8959620076157650687
+    second: slasher_598
+  - first:
+      213: -1644482476506070509
+    second: slasher_599
+  - first:
+      213: 3549421623496797307
+    second: slasher_600
+  - first:
+      213: 8852754842454045232
+    second: slasher_601
+  - first:
+      213: 6306682135003356824
+    second: slasher_602
+  - first:
+      213: -3344232455328609814
+    second: slasher_603
+  - first:
+      213: 6429809870551260301
+    second: slasher_604
+  - first:
+      213: -3542016324312228686
+    second: slasher_605
+  - first:
+      213: 4957914944663901975
+    second: slasher_606
+  - first:
+      213: -6355836006996400224
+    second: slasher_607
+  - first:
+      213: -8750601203306131488
+    second: slasher_608
+  - first:
+      213: -4355793556181498180
+    second: slasher_609
+  - first:
+      213: -2578048813962530922
+    second: slasher_610
+  - first:
+      213: -9191846982140730023
+    second: slasher_611
+  - first:
+      213: 376249579873079867
+    second: slasher_612
+  - first:
+      213: 4937894438359555058
+    second: slasher_613
+  - first:
+      213: -4942527951050058923
+    second: slasher_614
+  - first:
+      213: 5648837926448014753
+    second: slasher_615
+  - first:
+      213: 7648050267018068538
+    second: slasher_616
+  - first:
+      213: -4529533586539448966
+    second: slasher_617
+  - first:
+      213: 5983618792287558769
+    second: slasher_618
+  - first:
+      213: -6175102439644921954
+    second: slasher_619
+  - first:
+      213: -6222786337837746267
+    second: slasher_620
+  - first:
+      213: 1964662124249956498
+    second: slasher_621
+  - first:
+      213: -1909776495224672694
+    second: slasher_622
+  - first:
+      213: 3163012744880751128
+    second: slasher_623
+  - first:
+      213: 6612805081950932864
+    second: slasher_624
+  - first:
+      213: 2678488228628896236
+    second: slasher_625
+  - first:
+      213: 1867083019742172304
+    second: slasher_626
+  - first:
+      213: -3194588672757643165
+    second: slasher_627
+  - first:
+      213: -2240120489351174400
+    second: slasher_628
+  - first:
+      213: -1205167814576772007
+    second: slasher_629
+  - first:
+      213: -7590797829410633959
+    second: slasher_630
+  - first:
+      213: -4298812761196304745
+    second: slasher_631
+  - first:
+      213: -3665447065293288362
+    second: slasher_632
+  - first:
+      213: -1625202545571892839
+    second: slasher_633
+  - first:
+      213: -9142212391216127792
+    second: slasher_634
+  - first:
+      213: -3197930682941908957
+    second: slasher_635
+  - first:
+      213: -8151280208131750743
+    second: slasher_636
+  - first:
+      213: 3776407079548417713
+    second: slasher_637
+  - first:
+      213: -7415290371926799322
+    second: slasher_638
+  - first:
+      213: 4139575485295025400
+    second: slasher_639
+  - first:
+      213: 1048137523738800575
+    second: slasher_640
+  - first:
+      213: -4244268395486596079
+    second: slasher_641
+  - first:
+      213: 3567110509667611342
+    second: slasher_642
+  - first:
+      213: -8727507930047000017
+    second: slasher_643
+  - first:
+      213: -3477083134242044372
+    second: slasher_644
+  - first:
+      213: 5770140992394625777
+    second: slasher_645
+  - first:
+      213: 7408381246346164936
+    second: slasher_646
+  - first:
+      213: -8956359502572876966
+    second: slasher_647
+  - first:
+      213: -8285266407405667510
+    second: slasher_648
+  - first:
+      213: 2496699584334795367
+    second: slasher_649
+  - first:
+      213: 139590351160528753
+    second: slasher_650
+  - first:
+      213: -3788017194805090864
+    second: slasher_651
+  - first:
+      213: -3008598624185537777
+    second: slasher_652
+  - first:
+      213: -9126974271584812625
+    second: slasher_653
+  - first:
+      213: 8466593352562277299
+    second: slasher_654
+  - first:
+      213: -1368992075879651902
+    second: slasher_655
+  - first:
+      213: -541585356375666652
+    second: slasher_656
+  - first:
+      213: -4675080093356056920
+    second: slasher_657
+  - first:
+      213: 4298962607596787081
+    second: slasher_658
+  - first:
+      213: -6007580360860300738
+    second: slasher_659
+  - first:
+      213: 9005903313079389624
+    second: slasher_660
+  - first:
+      213: -8032702927255101125
+    second: slasher_661
+  - first:
+      213: 3296396552132582587
+    second: slasher_662
+  - first:
+      213: 5522667209298409626
+    second: slasher_663
+  - first:
+      213: -557054441023865034
+    second: slasher_664
+  - first:
+      213: -4138785759316026200
+    second: slasher_665
+  - first:
+      213: -5406527854921241310
+    second: slasher_666
+  - first:
+      213: -6531936934036017033
+    second: slasher_667
+  - first:
+      213: 6510207705896885011
+    second: slasher_668
+  - first:
+      213: -7053019129449382258
+    second: slasher_669
+  - first:
+      213: 3584325062156562001
+    second: slasher_670
+  - first:
+      213: -612823691339754174
+    second: slasher_671
+  - first:
+      213: -1642511868847583396
+    second: slasher_672
+  - first:
+      213: -709379865213207092
+    second: slasher_673
+  - first:
+      213: 1181050931139488643
+    second: slasher_674
+  - first:
+      213: 5872211768734363770
+    second: slasher_675
+  - first:
+      213: 1004629972079410613
+    second: slasher_676
+  - first:
+      213: 6812964325448843872
+    second: slasher_677
+  - first:
+      213: 6838587424457387079
+    second: slasher_678
+  - first:
+      213: 902753130815150856
+    second: slasher_679
+  - first:
+      213: -3367876307203564047
+    second: slasher_680
+  - first:
+      213: 2682598555362511888
+    second: slasher_681
+  - first:
+      213: 4600345157117049842
+    second: slasher_682
+  - first:
+      213: 3471907166797305048
+    second: slasher_683
+  - first:
+      213: 5104757912021242177
+    second: slasher_684
+  - first:
+      213: -1027767297728873610
+    second: slasher_685
+  - first:
+      213: -7823559653188326664
+    second: slasher_686
+  - first:
+      213: 2753381475684041413
+    second: slasher_687
+  - first:
+      213: 8925469564901573257
+    second: slasher_688
+  - first:
+      213: -1212772455486352333
+    second: slasher_689
+  - first:
+      213: -4076911860219090191
+    second: slasher_690
+  - first:
+      213: -2442090798243145305
+    second: slasher_691
+  - first:
+      213: -2640247908495082366
+    second: slasher_692
+  - first:
+      213: 8968408734344434001
+    second: slasher_693
+  - first:
+      213: 1040185034682219502
+    second: slasher_694
+  - first:
+      213: 5943743037316163754
+    second: slasher_695
+  - first:
+      213: 6486914403758638931
+    second: slasher_696
+  - first:
+      213: 5386862980996398342
+    second: slasher_697
+  - first:
+      213: -1838743127822322273
+    second: slasher_698
+  - first:
+      213: 6456172240353025339
+    second: slasher_699
+  - first:
+      213: -5350014948493314778
+    second: slasher_700
+  - first:
+      213: 3214176209204080181
+    second: slasher_701
+  - first:
+      213: -5446597582623186271
+    second: slasher_702
+  - first:
+      213: -5592774226293854726
+    second: slasher_703
+  - first:
+      213: -8477848765470939727
+    second: slasher_704
+  - first:
+      213: 2129168076146871439
+    second: slasher_705
+  - first:
+      213: 7960636272723126089
+    second: slasher_706
+  - first:
+      213: 2606631068494882185
+    second: slasher_707
+  - first:
+      213: -1999168008062124922
+    second: slasher_708
+  - first:
+      213: 7523895655970037349
+    second: slasher_709
+  - first:
+      213: -1227159074580832466
+    second: slasher_710
+  - first:
+      213: 7460305877122053397
+    second: slasher_711
+  - first:
+      213: 7372081938864409047
+    second: slasher_712
+  - first:
+      213: -24307698368548331
+    second: slasher_713
+  - first:
+      213: -8153289367091450924
+    second: slasher_714
+  - first:
+      213: 344821422699760791
+    second: slasher_715
+  - first:
+      213: -4658912712982981642
+    second: slasher_716
+  - first:
+      213: 8192635552104075271
+    second: slasher_717
+  - first:
+      213: -316402711886226459
+    second: slasher_718
+  - first:
+      213: -6530945151142588120
+    second: slasher_719
+  - first:
+      213: -5477886223141162797
+    second: slasher_720
+  - first:
+      213: -7586832665842713084
+    second: slasher_721
+  - first:
+      213: -7664065399239916715
+    second: slasher_722
+  - first:
+      213: -8387738048863444915
+    second: slasher_723
+  - first:
+      213: 2444942061315183042
+    second: slasher_724
+  - first:
+      213: 2650378738170653550
+    second: slasher_725
+  - first:
+      213: -8079305440904241903
+    second: slasher_726
+  - first:
+      213: 6120758540967141967
+    second: slasher_727
+  - first:
+      213: -3963679614830187736
+    second: slasher_728
+  - first:
+      213: 1627296763834940070
+    second: slasher_729
+  - first:
+      213: -5727139890352081288
+    second: slasher_730
+  - first:
+      213: 2678090531676100204
+    second: slasher_731
+  - first:
+      213: 588950588174348891
+    second: slasher_732
+  - first:
+      213: 8518599293836569728
+    second: slasher_733
+  - first:
+      213: -7279193618639326233
+    second: slasher_734
+  - first:
+      213: -7683327699476801511
+    second: slasher_735
+  - first:
+      213: 6077311165554575725
+    second: slasher_736
+  - first:
+      213: -3586507057744568685
+    second: slasher_737
+  - first:
+      213: 5708532609219010930
+    second: slasher_738
+  - first:
+      213: 1570778422540485697
+    second: slasher_739
+  - first:
+      213: 1577097283799524166
+    second: slasher_740
+  - first:
+      213: 1015308392206745700
+    second: slasher_741
+  - first:
+      213: -2882206332513889305
+    second: slasher_742
+  - first:
+      213: -8017140652373734165
+    second: slasher_743
+  - first:
+      213: -813606521061890580
+    second: slasher_744
+  - first:
+      213: -3236328635117971649
+    second: slasher_745
+  - first:
+      213: -8645563574434599040
+    second: slasher_746
+  - first:
+      213: 1264545307119245617
+    second: slasher_747
+  - first:
+      213: -9142806576301462528
+    second: slasher_748
+  - first:
+      213: -2708442687749413510
+    second: slasher_749
+  - first:
+      213: -9180832152264052904
+    second: slasher_750
+  - first:
+      213: 6144391118335364406
+    second: slasher_751
+  - first:
+      213: 6205471632793420067
+    second: slasher_752
+  - first:
+      213: -1026910626210535990
+    second: slasher_753
+  - first:
+      213: -5279534013244216452
+    second: slasher_754
+  - first:
+      213: 8717542352041150689
+    second: slasher_755
+  - first:
+      213: -4977650355470500485
+    second: slasher_756
+  - first:
+      213: 2057377604225567419
+    second: slasher_757
+  - first:
+      213: 360641834367907634
+    second: slasher_758
+  - first:
+      213: -4312410669992516537
+    second: slasher_759
+  - first:
+      213: -5574204564551947319
+    second: slasher_760
+  - first:
+      213: -4353379146795568972
+    second: slasher_761
+  - first:
+      213: 4602653079781418347
+    second: slasher_762
+  - first:
+      213: 744986582624727730
+    second: slasher_763
+  - first:
+      213: -1049058582160569129
+    second: slasher_764
+  - first:
+      213: -8452433628430770231
+    second: slasher_765
+  - first:
+      213: 3944057591733698607
+    second: slasher_766
+  - first:
+      213: -3644285301046817605
+    second: slasher_767
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: slasher_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3392
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 353b4266f69975070800000000000000
+      internalID: 8095107558955856723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3392
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee28da6d62c1eea20800000000000000
+      internalID: 3093440947186139886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3392
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 382db04e5948379f0800000000000000
+      internalID: -471887756632796541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3392
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd9372a6e48cce20800000000000000
+      internalID: 3372216347096489467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3392
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fd83a05a42a26f00800000000000000
+      internalID: 1108626898350738937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3392
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d295b4882cb36a0800000000000000
+      internalID: -6468362549152109254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 3392
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 676c360269b6742e0800000000000000
+      internalID: -2141624805258705290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3328
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba812076f36a611b0800000000000000
+      internalID: -5686174688267331413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3328
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b0843b0ca397aa0800000000000000
+      internalID: -6162830015763838073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3328
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a01cfc134ee77420800000000000000
+      internalID: 2627830879610474659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3328
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6084b3a6398ed87d0800000000000000
+      internalID: -2914417663998736378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3328
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de98af8cbd5b1b250800000000000000
+      internalID: 5958743737562204653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_12
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3328
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27a64db29991ee5f0800000000000000
+      internalID: -725614344304039310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_13
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 3328
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab3b9b9509f9bd10800000000000000
+      internalID: 2142016900272176038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3264
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 603830a6ece687120800000000000000
+      internalID: 2411799433277833990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_15
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3264
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82dcc87c94a3228f0800000000000000
+      internalID: -566826514540344024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3264
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d16c5a8cfb85230800000000000000
+      internalID: 3627860368342523285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_17
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3264
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9152b1d71522ba630800000000000000
+      internalID: 3939280032452257049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3264
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b47e29fd5650460800000000000000
+      internalID: 7207278789593090939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_19
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3264
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2a9eb18a44a08370800000000000000
+      internalID: 8322832751291963951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_20
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 3264
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78873acd73c45c810800000000000000
+      internalID: 1784916630130882695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3200
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae7a7bd3f46822370800000000000000
+      internalID: 8296341138465859562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3200
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 195db29d536bd61f0800000000000000
+      internalID: -1049982795714407023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_23
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3200
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe3e45cc1da56040800000000000000
+      internalID: 4640305330156093170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_24
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3200
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec2b91efccb83fa20800000000000000
+      internalID: 3094971081486349006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_25
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3200
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8300326d4af27c3e0800000000000000
+      internalID: -2033604321720729544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_26
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3200
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4de519eb9cbc62710800000000000000
+      internalID: 1668244779333410516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 3200
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc1bbce0e10e9650800000000000000
+      internalID: 6241428199138073847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3136
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 939fecd658f10d020800000000000000
+      internalID: 2364424462302902585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_29
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3136
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6df584f7fa63e9710800000000000000
+      internalID: 1701857836575252438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_30
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3136
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a59627adebde8ae00800000000000000
+      internalID: 1056355516582881626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_31
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3136
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dee9acab734a2c50800000000000000
+      internalID: 6641194798968073937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_32
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3136
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96fc9ea1f50b79de0800000000000000
+      internalID: -1326397642717409431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_33
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3136
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9f1d175bb7b6c740800000000000000
+      internalID: 5172023237329887135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_34
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 3136
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5838669bfa1c4cfe0800000000000000
+      internalID: -1169597042735545467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_35
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 3136
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c6fe275915a52780800000000000000
+      internalID: -8708372776195524923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3072
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93b370542d27e1b80800000000000000
+      internalID: -8422168005709448391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_37
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3072
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e1c25876d3056130800000000000000
+      internalID: 3559255300182819300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_38
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3072
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03a4c5274517b9410800000000000000
+      internalID: 1484905109658552880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_39
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3072
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd8c941222f8b0ea0800000000000000
+      internalID: -5905469109616129829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_40
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3072
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f34ec42c8c598e4a0800000000000000
+      internalID: -6563831767406681025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_41
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3072
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 365e15172cf96abc0800000000000000
+      internalID: -3772151980402547357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_42
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 3072
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 239790e06384f6190800000000000000
+      internalID: -7967069818794182350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_43
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 3072
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc9ec74052b1a400800000000000000
+      internalID: 333743905273978035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3008
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1992fc0377953bd0800000000000000
+      internalID: -2651046285243410149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_45
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3008
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc2a2939a9d238850800000000000000
+      internalID: 6377991639210828491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_46
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3008
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e58c64f80fbc480800000000000000
+      internalID: -8877737742272274824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_47
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3008
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9af20b4ef0fa31100800000000000000
+      internalID: 77598101391552425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_48
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3008
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d37f4766fd7658740800000000000000
+      internalID: 5153639557789710141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_49
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3008
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f4ee95ae165045f0800000000000000
+      internalID: -774524446280063755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_50
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 3008
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3c683c6159e2ec20800000000000000
+      internalID: 3234404018322697278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_51
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 3008
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4190f4f581c33dbb0800000000000000
+      internalID: -4912516693155182316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2944
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f4883eebca85d480800000000000000
+      internalID: -8875034882184018703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_53
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2944
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d05dc4d297bd66380800000000000000
+      internalID: -8978247493618969331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_54
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2944
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf9853768809e9f30800000000000000
+      internalID: 4584260386231257596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_55
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2944
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2bdfdc4f82c4c40800000000000000
+      internalID: 5497814277005619954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_56
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2944
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2e7ae6c45f230790800000000000000
+      internalID: -7565150907891286483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_57
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2944
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea45d5d3b7df10250800000000000000
+      internalID: 5909282891839132846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_58
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2944
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b59e45c66e4cf8bd0800000000000000
+      internalID: -2625663563794683557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_59
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 2944
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd611976d6d2e6820800000000000000
+      internalID: 2913315956867536605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2880
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24900cc747cefe980800000000000000
+      internalID: -8507321186026256062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_61
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2880
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 444be828425ba15d0800000000000000
+      internalID: -3090959025822583740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_62
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2880
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70bd6b15ffba75fc0800000000000000
+      internalID: -3506144671808693497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_63
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2880
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3684b66cc21e1320800000000000000
+      internalID: 2530480709734532670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_64
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2880
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5301d3724051375b0800000000000000
+      internalID: -5371926822940504011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_65
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2880
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a7cdadbbf955b90800000000000000
+      internalID: -7253715995630732676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_66
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2880
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2336c8182b8f27a90800000000000000
+      internalID: -7317512998962306254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_67
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 2880
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 156cb2c24a1c9afe0800000000000000
+      internalID: -1177196916720810415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_68
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2880
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9091aa9766683e50800000000000000
+      internalID: 6789289033422966938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2816
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c5ce2c38e8962eb0800000000000000
+      internalID: -4744937034178705983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_70
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2816
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba530a7d2076ed900800000000000000
+      internalID: 711119053076313515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_71
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2816
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56781cb74d268ee90800000000000000
+      internalID: -6996233356371196059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_72
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2816
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d629a0cbe569dff0800000000000000
+      internalID: -10865460867684655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_73
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2816
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ce966b64f5414830800000000000000
+      internalID: 4053598055686381256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_74
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2816
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 739cdb87213955f30800000000000000
+      internalID: 4563715504954263863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_75
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2816
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d29e5a55a3ac01a70800000000000000
+      internalID: 8795752424148429101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_76
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 2816
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c0c7bf21eb3e6e80800000000000000
+      internalID: -8183537634531360569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_77
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2816
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20bd75642e6164f30800000000000000
+      internalID: 4559356833857788674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2752
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3740431d1d8e44c50800000000000000
+      internalID: 6648694937761350771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_79
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2752
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d91bea4e7019520e0800000000000000
+      internalID: -2295268971987947107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_80
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2752
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 767b2b8980d863ef0800000000000000
+      internalID: -128760471272376473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_81
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2752
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd5f220f67ca7bf80800000000000000
+      internalID: -8090808578712865317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_82
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2752
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb9eccba9b527770800000000000000
+      internalID: 8607042558009187314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_83
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2752
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbd822da8d5150770800000000000000
+      internalID: 8576285085758819773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_84
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2752
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a16bf67cbcfa30de0800000000000000
+      internalID: -1368056572031289830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_85
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 2752
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a2ef54ad5ec41af0800000000000000
+      internalID: -426489163108326743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_86
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2752
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ea0d6ea76c20e00800000000000000
+      internalID: 1009587497645157980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_87
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2688
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61b807f3c7544a790800000000000000
+      internalID: -7519809077859284202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_88
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2688
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f7d3a05500e78830800000000000000
+      internalID: 4073470701412276212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_89
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2688
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c7197079f4d3bf50800000000000000
+      internalID: 6896089622233290694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_90
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2688
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1fd92417a15cebf0800000000000000
+      internalID: -293770097646248161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_91
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2688
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02d805b07be51f5f0800000000000000
+      internalID: -724693924768084704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_92
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2688
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef1434e62a72e9890800000000000000
+      internalID: -7449473155036134914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_93
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2688
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe272ef5c6ace020800000000000000
+      internalID: 2372454473020157682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_94
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 2688
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5a34ee378fa5a4f0800000000000000
+      internalID: -818054761887286692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_95
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2688
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a565de6f165020860800000000000000
+      internalID: 7494558648210642522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2624
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2160a8c9150f8a100800000000000000
+      internalID: 119609623434626578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_97
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2624
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfaa42404b235c040800000000000000
+      internalID: 4667192337584401147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_98
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2624
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b161688223bdc75c0800000000000000
+      internalID: -4216254142650903013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_99
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2624
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fabf230748d499030800000000000000
+      internalID: 3501915416470682543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_100
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2624
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a0a1f0c637589d00800000000000000
+      internalID: 979628811629994144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_101
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2624
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e12e0a8a6ff7dbe0800000000000000
+      internalID: -1452411521755897373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_102
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2560
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55ad487d415a79860800000000000000
+      internalID: 7536674010361551445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_103
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2560
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e6344a13eb9ed840800000000000000
+      internalID: 5250805615261136612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_104
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2560
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e95fc6403172a3350800000000000000
+      internalID: 5997148816429348254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_105
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2560
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c160f7009e05a430800000000000000
+      internalID: 3793454272900784585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_106
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2560
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44ba5eca54a746630800000000000000
+      internalID: 3919392015391238980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_107
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2560
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a96eb5ddfa993ec0800000000000000
+      internalID: -3586665213220460125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2496
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c7db3b6a0ccee190800000000000000
+      internalID: -7931177548632041530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_109
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2496
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69be4b9bbacd24820800000000000000
+      internalID: 2901123740093180822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_110
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2496
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ad9a8af956cfac0800000000000000
+      internalID: -3820066647513114039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_111
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2496
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6394dc2f863d91330800000000000000
+      internalID: 3682206618055690550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_112
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2496
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a00a58941d12320800000000000000
+      internalID: 2531534579263605339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_113
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2496
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34a6c16902eb54620800000000000000
+      internalID: 2757819394000972355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_114
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2432
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 096fed0a35fa208a0800000000000000
+      internalID: -6340312551668124016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_115
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2432
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2ab29df695ea1f0800000000000000
+      internalID: -1031788927701507342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_116
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2432
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b44036bc5f6c3a0c0800000000000000
+      internalID: -4565586838241999797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_117
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2432
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f7009b8f0c07870800000000000000
+      internalID: 8678648656431185689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_118
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2432
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 321a92387e88c1410800000000000000
+      internalID: 1449183708025823523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_119
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2432
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7599d2d24564cd80800000000000000
+      internalID: -8231342881246702211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2368
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13032ea39d4b149b0800000000000000
+      internalID: -5097594458117885903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_121
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2368
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0254f25960161eb0800000000000000
+      internalID: -4749590712466255349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_122
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2368
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f029070b32797ae60800000000000000
+      internalID: 7973507844822569487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_123
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2368
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c29a8c2f33448750800000000000000
+      internalID: 6306239316834816711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_124
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2368
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a377f3f69097d5ce0800000000000000
+      internalID: -1414841626496370886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_125
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2368
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa901c77e660a1d0800000000000000
+      internalID: -3341557779103966560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_126
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2368
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 333922c42443eef30800000000000000
+      internalID: 4606676928196416307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_127
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 2368
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b8dacc648ce91ff0800000000000000
+      internalID: -64760666115090251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_128
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2368
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac34c179e6eaa2710800000000000000
+      internalID: 1669338401899037642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_129
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 2368
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fed049749cd332a0800000000000000
+      internalID: -6758816085505417487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_130
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2368
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 644f2373327e61840800000000000000
+      internalID: 5194593358654403654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_131
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 2368
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7071d3692da05a9e0800000000000000
+      internalID: -1610869392135088377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_132
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2368
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a9a913b2cba7e80800000000000000
+      internalID: -8180018879463253502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_133
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2304
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e4b7cda95bf3b50800000000000000
+      internalID: 6575173657712873079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_134
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2304
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8691f6429a3b8cfb0800000000000000
+      internalID: -4627251078081078936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_135
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2304
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46bfefad4462cd2b0800000000000000
+      internalID: -5558525762908259484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_136
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2304
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5acbbac2f114ce400800000000000000
+      internalID: 354730072804670629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_137
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2304
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41fb144c5c676e690800000000000000
+      internalID: -7573235131603632364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_138
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2304
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fed7278b84325cc0800000000000000
+      internalID: -3723856168009343244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_139
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2304
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 291dee266cac57670800000000000000
+      internalID: 8535951622162796946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_140
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 2304
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b725352ab2384b40800000000000000
+      internalID: 5424641526237308849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_141
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2304
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 971a6c1ec269779d0800000000000000
+      internalID: -2776585525740002951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_142
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 2304
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85bc6fcd5796ca140800000000000000
+      internalID: 4732273263398800216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_143
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2304
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c61f4e27d528a68c0800000000000000
+      internalID: -4005245580721458836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_144
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 2304
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f5b2d635c13afd0800000000000000
+      internalID: -2331989037408362733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_145
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2304
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 210a4c075414b64e0800000000000000
+      internalID: -1987423044053458926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_146
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2240
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca72a19e13095660800000000000000
+      internalID: 7374929294623144646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_147
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2240
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9296ac746e92ce240800000000000000
+      internalID: 4822275370030623017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_148
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2240
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03fac5ead122aafa0800000000000000
+      internalID: -5788776860156645584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_149
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2240
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ecd2b1b74941d750800000000000000
+      internalID: 6327919523705052392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_150
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2240
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93b76c95b92ca55f0800000000000000
+      internalID: -767086814031348935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_151
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2240
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ea001b6a283678d0800000000000000
+      internalID: -2849027959429264665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_152
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2240
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38d92a0263e520ad0800000000000000
+      internalID: -2737522036919067261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_153
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 2240
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47dee34fcbe5182a0800000000000000
+      internalID: -6736999401924924044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_154
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2240
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45fe4f4383d108dc0800000000000000
+      internalID: -3638876371671519404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_155
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 2240
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bf674731ce01ac20800000000000000
+      internalID: 3215867831938150320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_156
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2240
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f508b6b4dd90ea950800000000000000
+      internalID: 6462113361380999263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_157
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 2240
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e7feee995fbe2610800000000000000
+      internalID: 1598425309402560481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_158
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2240
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 162d2bdaab46a0ad0800000000000000
+      internalID: -2735263070733282719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_159
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2176
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 126b7c039b1c88e90800000000000000
+      internalID: -7023150617752783327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_160
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2176
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 670559fbf1d1be0c0800000000000000
+      internalID: -4545507376704958346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_161
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2176
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e695f9afc75051d40800000000000000
+      internalID: 5554351749770205550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_162
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2176
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1350232f30a181030800000000000000
+      internalID: 3465548517512185137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_163
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2176
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad8931477f91007c0800000000000000
+      internalID: -4107254309566834470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_164
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2176
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c28e16ff1d1bc11b0800000000000000
+      internalID: -5684473114157520852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_165
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2176
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65d371bf23d4ae1c0800000000000000
+      internalID: -4473678398482858666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_166
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 2176
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d39739eb2eb71c70800000000000000
+      internalID: 8941824680973013973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_167
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2176
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bce7b50f89c7bf680800000000000000
+      internalID: -8720239257163432245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_168
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 2176
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e9c9a7e119269810800000000000000
+      internalID: 1771648660294715877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_169
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2176
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bb0223ad04552580800000000000000
+      internalID: -8852577074978616392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_170
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 2176
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7359960f2c7f6df0800000000000000
+      internalID: -184792518282882177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_171
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2176
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83ff91721f85d9060800000000000000
+      internalID: 6961818391751032632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_172
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2112
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d2b32c2b71ff03e0800000000000000
+      internalID: -2085182591125441836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_173
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2112
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd19fe4ec1aa00830800000000000000
+      internalID: 4035412307200676319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_174
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2112
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 590ff7f7e7ee89ca0800000000000000
+      internalID: -6009791475653545835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_175
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2112
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e70386855db295b0800000000000000
+      internalID: -5363016031218235416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_176
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2112
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d3deb11e72b844d0800000000000000
+      internalID: -3150071684812319784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slasher_177
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2112
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44866b06cc241e2f0800000000000000
+      internalID: -945401001207764924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b3bbe3a8afb32524ebdd0ee9d88499d9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      slasher_0: 8095107558955856723
+      slasher_1: 3093440947186139886
+      slasher_10: -2914417663998736378
+      slasher_100: 979628811629994144
+      slasher_101: -1452411521755897373
+      slasher_102: 7536674010361551445
+      slasher_103: 5250805615261136612
+      slasher_104: 5997148816429348254
+      slasher_105: 3793454272900784585
+      slasher_106: 3919392015391238980
+      slasher_107: -3586665213220460125
+      slasher_108: -7931177548632041530
+      slasher_109: 2901123740093180822
+      slasher_11: 5958743737562204653
+      slasher_110: -3820066647513114039
+      slasher_111: 3682206618055690550
+      slasher_112: 2531534579263605339
+      slasher_113: 2757819394000972355
+      slasher_114: -6340312551668124016
+      slasher_115: -1031788927701507342
+      slasher_116: -4565586838241999797
+      slasher_117: 8678648656431185689
+      slasher_118: 1449183708025823523
+      slasher_119: -8231342881246702211
+      slasher_12: -725614344304039310
+      slasher_120: -5097594458117885903
+      slasher_121: -4749590712466255349
+      slasher_122: 7973507844822569487
+      slasher_123: 6306239316834816711
+      slasher_124: -1414841626496370886
+      slasher_125: -3341557779103966560
+      slasher_126: 4606676928196416307
+      slasher_127: -64760666115090251
+      slasher_128: 1669338401899037642
+      slasher_129: -6758816085505417487
+      slasher_13: 2142016900272176038
+      slasher_130: 5194593358654403654
+      slasher_131: -1610869392135088377
+      slasher_132: -8180018879463253502
+      slasher_133: 6575173657712873079
+      slasher_134: -4627251078081078936
+      slasher_135: -5558525762908259484
+      slasher_136: 354730072804670629
+      slasher_137: -7573235131603632364
+      slasher_138: -3723856168009343244
+      slasher_139: 8535951622162796946
+      slasher_14: 2411799433277833990
+      slasher_140: 5424641526237308849
+      slasher_141: -2776585525740002951
+      slasher_142: 4732273263398800216
+      slasher_143: -4005245580721458836
+      slasher_144: -2331989037408362733
+      slasher_145: -1987423044053458926
+      slasher_146: 7374929294623144646
+      slasher_147: 4822275370030623017
+      slasher_148: -5788776860156645584
+      slasher_149: 6327919523705052392
+      slasher_15: -566826514540344024
+      slasher_150: -767086814031348935
+      slasher_151: -2849027959429264665
+      slasher_152: -2737522036919067261
+      slasher_153: -6736999401924924044
+      slasher_154: -3638876371671519404
+      slasher_155: 3215867831938150320
+      slasher_156: 6462113361380999263
+      slasher_157: 1598425309402560481
+      slasher_158: -2735263070733282719
+      slasher_159: -7023150617752783327
+      slasher_16: 3627860368342523285
+      slasher_160: -4545507376704958346
+      slasher_161: 5554351749770205550
+      slasher_162: 3465548517512185137
+      slasher_163: -4107254309566834470
+      slasher_164: -5684473114157520852
+      slasher_165: -4473678398482858666
+      slasher_166: 8941824680973013973
+      slasher_167: -8720239257163432245
+      slasher_168: 1771648660294715877
+      slasher_169: -8852577074978616392
+      slasher_17: 3939280032452257049
+      slasher_170: -184792518282882177
+      slasher_171: 6961818391751032632
+      slasher_172: -2085182591125441836
+      slasher_173: 4035412307200676319
+      slasher_174: -6009791475653545835
+      slasher_175: -5363016031218235416
+      slasher_176: -3150071684812319784
+      slasher_177: -945401001207764924
+      slasher_178: -5186319124385517484
+      slasher_179: 8187578911974746349
+      slasher_18: 7207278789593090939
+      slasher_180: 4924726091708170966
+      slasher_181: 8452203255685781093
+      slasher_182: -9060236075324759572
+      slasher_183: -3573894466068017167
+      slasher_184: 9160855192329595034
+      slasher_185: 7847697077653000743
+      slasher_186: -1042421985717197566
+      slasher_187: -4661363813856455283
+      slasher_188: -3721446358461864396
+      slasher_189: -3566817349082011816
+      slasher_19: 8322832751291963951
+      slasher_190: 4127667566982053569
+      slasher_191: 3032420598466088108
+      slasher_192: -356562605642648422
+      slasher_193: -1670976820088924395
+      slasher_194: 6142081247124033358
+      slasher_195: 8480564146097367043
+      slasher_196: 2274740643281059379
+      slasher_197: 8831132393988256657
+      slasher_198: -7097904718854350646
+      slasher_199: -7835210535116235569
+      slasher_2: -471887756632796541
+      slasher_20: 1784916630130882695
+      slasher_200: -8533665908633529233
+      slasher_201: 877782246132813773
+      slasher_202: 1876902805053050718
+      slasher_203: 4095686404243955181
+      slasher_204: -1616151206698256044
+      slasher_205: -2991617919898344043
+      slasher_206: 7929258765151316516
+      slasher_207: 6421787812192583408
+      slasher_208: -668666766404110658
+      slasher_209: 8858484652951840444
+      slasher_21: 8296341138465859562
+      slasher_210: -865765581465179549
+      slasher_211: 8611313843297552963
+      slasher_212: -3891572959154737606
+      slasher_213: -984665155496344004
+      slasher_214: -586939013189996735
+      slasher_215: -644240929302763025
+      slasher_216: 7610500641253164746
+      slasher_217: 9044552599227711328
+      slasher_218: 1877431798817634317
+      slasher_219: -4668057501163151691
+      slasher_22: -1049982795714407023
+      slasher_220: 8043037611579679743
+      slasher_221: -6454419586855683269
+      slasher_222: 728982147034267071
+      slasher_223: -4159049123966056696
+      slasher_224: -2199827771874471870
+      slasher_225: -3520357834874148189
+      slasher_226: -747599466801706054
+      slasher_227: 7451929864611362497
+      slasher_228: -4841408629025315878
+      slasher_229: 5825377922031368769
+      slasher_23: 4640305330156093170
+      slasher_230: 7929299899426155836
+      slasher_231: -3259183496837316358
+      slasher_232: 1426807943990415109
+      slasher_233: 2854562801997479284
+      slasher_234: 495266941705008996
+      slasher_235: 4670423257143794300
+      slasher_236: -3786453290850782330
+      slasher_237: -6304137367561706223
+      slasher_238: 6313936965479478707
+      slasher_239: -5576786775715360620
+      slasher_24: 3094971081486349006
+      slasher_240: 2091421826968563066
+      slasher_241: -5397704708318356334
+      slasher_242: 5059573242023086283
+      slasher_243: -2727673995973637643
+      slasher_244: -5207370470722471593
+      slasher_245: 2599974188754180416
+      slasher_246: 2477967134419092256
+      slasher_247: 2613601728161393648
+      slasher_248: -2262885722633560756
+      slasher_249: 4273680244467238122
+      slasher_25: -2033604321720729544
+      slasher_250: 186737323010567549
+      slasher_251: 7475949502963668426
+      slasher_252: 8961817267129511210
+      slasher_253: 603771368889687323
+      slasher_254: 3933712563092579993
+      slasher_255: -4506812891327074791
+      slasher_256: -1354523866184456375
+      slasher_257: 728120996283865302
+      slasher_258: -4804278868726428816
+      slasher_259: 8252584507790232075
+      slasher_26: 1668244779333410516
+      slasher_260: -9127248287370281563
+      slasher_261: -4959101697640619969
+      slasher_262: -4935364266992501652
+      slasher_263: -7142276684817645093
+      slasher_264: 8151266468558939965
+      slasher_265: -8820514998585865089
+      slasher_266: -2749683915927195887
+      slasher_267: 6243411795279897963
+      slasher_268: 846295187548034196
+      slasher_269: -7665824274802660963
+      slasher_27: 6241428199138073847
+      slasher_270: 7547626888517336744
+      slasher_271: 7501071372159480619
+      slasher_272: 3015450553556972987
+      slasher_273: 290681600801168948
+      slasher_274: 6677845620633115634
+      slasher_275: -3447534345872356874
+      slasher_276: -3786100910371287725
+      slasher_277: 4654008732633070271
+      slasher_278: -1552736828447017641
+      slasher_279: -3019852979296456893
+      slasher_28: 2364424462302902585
+      slasher_280: 7012443383299965320
+      slasher_281: -7038856773712233769
+      slasher_282: -5784974206619839781
+      slasher_283: -2899084519623392893
+      slasher_284: 3937904346398407207
+      slasher_285: 1815005515843978978
+      slasher_286: -8207399193898132961
+      slasher_287: 2732358640028604871
+      slasher_288: -4629522091089580590
+      slasher_289: -4725811536335767813
+      slasher_29: 1701857836575252438
+      slasher_290: 3645198221228910038
+      slasher_291: -9038798059663559508
+      slasher_292: 3430562745842699186
+      slasher_293: -3502253799711818704
+      slasher_294: -1905271352069584700
+      slasher_295: 1086719954229507453
+      slasher_296: 7575559453823239520
+      slasher_297: 6307626376469936717
+      slasher_298: -8525568387720879927
+      slasher_299: 2435208608427209066
+      slasher_3: 3372216347096489467
+      slasher_30: 1056355516582881626
+      slasher_300: -7016797750541530996
+      slasher_301: 9146002325760693289
+      slasher_302: 3492285272525799446
+      slasher_303: 1930230177799709625
+      slasher_304: 233620152686811326
+      slasher_305: 1879175220347216655
+      slasher_306: -4053903109840531499
+      slasher_307: -2252742067775036399
+      slasher_308: -3945552151130177812
+      slasher_309: 1095925326027626605
+      slasher_31: 6641194798968073937
+      slasher_310: 1455823592397057889
+      slasher_311: -2305635346337321028
+      slasher_312: -5557023443192649306
+      slasher_313: 3044446444849300285
+      slasher_314: -4190761541782624050
+      slasher_315: -6171836496960191922
+      slasher_316: -915332180348679000
+      slasher_317: -3176991076188591756
+      slasher_318: 5735252762178277332
+      slasher_319: -5376337071964792212
+      slasher_32: -1326397642717409431
+      slasher_320: -4065394495707060645
+      slasher_321: -1744675963210221791
+      slasher_322: -8639610944608221406
+      slasher_323: -2553634005802706152
+      slasher_324: -8311207017156433007
+      slasher_325: 6722763520756457652
+      slasher_326: -7146225000945896615
+      slasher_327: 1093002240001573236
+      slasher_328: -3517337514598220063
+      slasher_329: 812233880788053408
+      slasher_33: 5172023237329887135
+      slasher_330: 1116651340764770722
+      slasher_331: -587140458002697789
+      slasher_332: -5976774361863274083
+      slasher_333: -6460954424146888587
+      slasher_334: -8799084753033191796
+      slasher_335: -986366760692732805
+      slasher_336: 7761939345814114727
+      slasher_337: -7362480967190037784
+      slasher_338: 3639097087796683257
+      slasher_339: 5291640985975853707
+      slasher_34: -1169597042735545467
+      slasher_340: -4673743902171092999
+      slasher_341: -7345583121996830738
+      slasher_342: -8013285659376536471
+      slasher_343: -625313937853957140
+      slasher_344: -4637192174473183154
+      slasher_345: -5644588695356968289
+      slasher_346: 4373677688689626269
+      slasher_347: -6852312006439729183
+      slasher_348: 6623523260908403329
+      slasher_349: 1103459181402972408
+      slasher_35: -8708372776195524923
+      slasher_350: -495038284648005532
+      slasher_351: -188685079922859120
+      slasher_352: 324916087
+      slasher_36: -8422168005709448391
+      slasher_37: 3559255300182819300
+      slasher_38: 1484905109658552880
+      slasher_39: -5905469109616129829
+      slasher_4: 1108626898350738937
+      slasher_40: -6563831767406681025
+      slasher_41: -3772151980402547357
+      slasher_42: -7967069818794182350
+      slasher_43: 333743905273978035
+      slasher_44: -2651046285243410149
+      slasher_45: 6377991639210828491
+      slasher_46: -8877737742272274824
+      slasher_47: 77598101391552425
+      slasher_48: 5153639557789710141
+      slasher_49: -774524446280063755
+      slasher_5: -6468362549152109254
+      slasher_50: 3234404018322697278
+      slasher_51: -4912516693155182316
+      slasher_52: -8875034882184018703
+      slasher_53: -8978247493618969331
+      slasher_54: 4584260386231257596
+      slasher_55: 5497814277005619954
+      slasher_56: -7565150907891286483
+      slasher_57: 5909282891839132846
+      slasher_58: -2625663563794683557
+      slasher_59: 2913315956867536605
+      slasher_6: -2141624805258705290
+      slasher_60: -8507321186026256062
+      slasher_61: -3090959025822583740
+      slasher_62: -3506144671808693497
+      slasher_63: 2530480709734532670
+      slasher_64: -5371926822940504011
+      slasher_65: -7253715995630732676
+      slasher_66: -7317512998962306254
+      slasher_67: -1177196916720810415
+      slasher_68: 6789289033422966938
+      slasher_69: -4744937034178705983
+      slasher_7: -5686174688267331413
+      slasher_70: 711119053076313515
+      slasher_71: -6996233356371196059
+      slasher_72: -10865460867684655
+      slasher_73: 4053598055686381256
+      slasher_74: 4563715504954263863
+      slasher_75: 8795752424148429101
+      slasher_76: -8183537634531360569
+      slasher_77: 4559356833857788674
+      slasher_78: 6648694937761350771
+      slasher_79: -2295268971987947107
+      slasher_8: -6162830015763838073
+      slasher_80: -128760471272376473
+      slasher_81: -8090808578712865317
+      slasher_82: 8607042558009187314
+      slasher_83: 8576285085758819773
+      slasher_84: -1368056572031289830
+      slasher_85: -426489163108326743
+      slasher_86: 1009587497645157980
+      slasher_87: -7519809077859284202
+      slasher_88: 4073470701412276212
+      slasher_89: 6896089622233290694
+      slasher_9: 2627830879610474659
+      slasher_90: -293770097646248161
+      slasher_91: -724693924768084704
+      slasher_92: -7449473155036134914
+      slasher_93: 2372454473020157682
+      slasher_94: -818054761887286692
+      slasher_95: 7494558648210642522
+      slasher_96: 119609623434626578
+      slasher_97: 4667192337584401147
+      slasher_98: -4216254142650903013
+      slasher_99: 3501915416470682543
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
