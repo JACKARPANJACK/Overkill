@@ -65,16 +65,18 @@ public class RobotCompanion : MonoBehaviour, PlayerInput.IPlayerActions
 
     private HUD hud; // Reference to HUD for weapon display
     public bool isActive = true;
+    private RoboChat chat; // Reference to RoboChat for dialogue
+
     private void Awake()
     {
         inputActions = new PlayerInput();
         inputActions.Player.SetCallbacks(this);
         if(hud == null)
-        {
             hud = FindAnyObjectByType<HUD>();
-        }
         else
             Debug.Log("no HUD found");
+
+        chat = GetComponent<RoboChat>();
     }
 
     private void OnEnable()
@@ -236,6 +238,7 @@ public class RobotCompanion : MonoBehaviour, PlayerInput.IPlayerActions
             }
         }
 
+        if(closest != null) {chat.chat("Found oneee!!!"); }
         currentTarget = closest;
     }
     
@@ -283,6 +286,7 @@ public class RobotCompanion : MonoBehaviour, PlayerInput.IPlayerActions
                 currentWeapon = (WeaponType)(((int)currentWeapon + 1) % 3);
                 if(hud != null)
                     hud.NextWeapon();
+                chat.chat("Time to switch weapon");
             }
             else if (scrollValue < 0)
             {
@@ -291,6 +295,7 @@ public class RobotCompanion : MonoBehaviour, PlayerInput.IPlayerActions
                 currentWeapon = (WeaponType)prev;
                 if(hud != null)
                     hud.PreviousWeapon();
+                chat.chat("Time to use this");
             }
             Debug.Log($"[Robot] Changed Weapon to: {currentWeapon}");
         }

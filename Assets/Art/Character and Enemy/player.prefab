@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 8457275055737637912}
   - component: {fileID: 7047709203670492997}
   - component: {fileID: 3055723863638685360}
+  - component: {fileID: 4655486746946054109}
   - component: {fileID: 4755997576107595513}
   m_Layer: 0
-  m_Name: Player
+  m_Name: player
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -162,6 +163,19 @@ MonoBehaviour:
   animator: {fileID: 8457275055737637912}
   canDropAI: 0
   inDropArea: 0
+--- !u!114 &4655486746946054109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6184191145230211730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5961bde5d8136064fac412addd7e9fbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
+  healthBarObj: {fileID: 0}
 --- !u!70 &4755997576107595513
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
