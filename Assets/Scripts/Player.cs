@@ -1,117 +1,152 @@
+﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using System.Collections;
 
+/// <summary>
+/// Handles player movement, animation, and health logic.
+/// Designed for a top-down 2D game using Unity's New Input System.
+/// </summary>
 [RequireComponent(typeof(Rigidbody2D))]
 public class Player : MonoBehaviour, IDamageable
 {
-    [Header("Movement")]
+    /* =========================================================
+     * MOVEMENT
+     * ========================================================= */
+    [Header("Movement Settings")]
     [SerializeField] private float moveSpeed = 5f;
 
-    [Header("Health")]
+    private Vector2 movementInput;           // Raw input from keyboard / controller
+    private Vector3 movementDirection;       // Normalized direction for logic
+    private Rigidbody2D rb;
+
+    /* =========================================================
+     * HEALTH
+     * ========================================================= */
+    [Header("Health Settings")]
     [SerializeField] private float maxHealth = 100f;
     [SerializeField] private float invulnerabilityDuration = 1f;
 
     private float currentHealth;
     private bool isInvulnerable;
+
+    /* =========================================================
+     * VISUALS
+     * ========================================================= */
+    [Header("Visual References")]
+    [SerializeField] private Animator animator;
+
     private SpriteRenderer spriteRenderer;
 
-    // Reference to the auto-generated C# class from the .inputactions file
+    /* =========================================================
+     * INPUT
+     * ========================================================= */
     private PlayerInput inputActions;
-    private Rigidbody2D rb;
-    private Vector2 movementInput;
+
+    /* =========================================================
+     * UNITY LIFECYCLE
+     * ========================================================= */
 
     private void Awake()
     {
-        // Initialize the generated class
+        // Create instance of the auto-generated Input System class
         inputActions = new PlayerInput();
     }
 
     private void OnEnable()
     {
-        // Enable the specific action map
+        // Enable Player input map when object is active
         inputActions.Player.Enable();
     }
 
     private void OnDisable()
     {
-        // Disable the action map
+        // Disable input to prevent unwanted actions
         inputActions.Player.Disable();
     }
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        
-        // Ensure gravity doesn't pull the player down in a top-down view
-        rb.gravityScale = 0f;
+        rb.gravityScale = 0f; // Top-down game → no gravity
 
         spriteRenderer = GetComponent<SpriteRenderer>();
         currentHealth = maxHealth;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        // Read value from the "Move" action in the "Player" map
+        /* -------------------- INPUT -------------------- */
+
+        // Read movement input from Input System
         movementInput = inputActions.Player.Move.ReadValue<Vector2>();
+
+        // Normalize direction to avoid faster diagonal movement
+        movementDirection = new Vector3(movementInput.x, movementInput.y, 0f).normalized;
+
+        /* -------------------- ANIMATION -------------------- */
+
+        animator.SetFloat("moveX", movementInput.x);
+        animator.SetFloat("moveY", movementInput.y);
+        animator.SetBool("moving", movementInput != Vector2.zero);
     }
 
-    void FixedUpdate()
+    private void FixedUpdate()
     {
-        // Apply velocity in FixedUpdate for consistent physics behavior
-        // Note: Using linearVelocity (Unity 6+) or velocity (older versions)
+        // Apply movement using physics (best practice)
         rb.linearVelocity = movementInput * moveSpeed;
     }
 
-    public void TakeDamage(float amount)
+    /* =========================================================
+     * DAMAGE & HEALTH SYSTEM
+     * ========================================================= */
+
+    public void TakeDamage(float damage)
     {
         if (isInvulnerable) return;
 
-        currentHealth -= amount;
-        Debug.Log($"Player Hit! HP: {currentHealth}/{maxHealth}");
+        currentHealth -= damage;
+        Debug.Log($"Player hit! HP: {currentHealth}/{maxHealth}");
 
-        if (currentHealth <= 0)
+        if (currentHealth <= 0f)
         {
             Die();
         }
         else
         {
-            StartCoroutine(FlashInvulnerability());
+            StartCoroutine(InvulnerabilityFlash());
         }
     }
 
     private void Die()
     {
         Debug.Log("Player has died.");
+
         rb.linearVelocity = Vector2.zero;
-        
-        // Disable Controls
         inputActions.Player.Disable();
-        
+
         // Visual feedback for death
-        if (spriteRenderer != null) 
-            spriteRenderer.color = Color.black; // Turn black/dark to indicate death
-            
-        // Disable script to stop logic
+        if (spriteRenderer != null)
+            spriteRenderer.color = Color.black;
+
+        // Disable further logic
         enabled = false;
     }
 
-    private IEnumerator FlashInvulnerability()
+    private IEnumerator InvulnerabilityFlash()
     {
         isInvulnerable = true;
-        Color originalColor = spriteRenderer != null ? spriteRenderer.color : Color.white;
-        
-        // Flash Red
-        if (spriteRenderer != null) spriteRenderer.color = Color.red;
-        yield return new WaitForSeconds(0.1f);
-        
-        // Restore
-        if (spriteRenderer != null) spriteRenderer.color = originalColor;
 
-        // Wait out the rest of the invulnerability
-        yield return new WaitForSeconds(invulnerabilityDuration - 0.1f);
+        if (spriteRenderer != null)
+        {
+            Color originalColor = spriteRenderer.color;
+
+            // Brief red flash to indicate damage
+            spriteRenderer.color = Color.red;
+            yield return new WaitForSeconds(0.1f);
+            spriteRenderer.color = originalColor;
+        }
+
+        yield return new WaitForSeconds(invulnerabilityDuration);
         isInvulnerable = false;
     }
 }
