@@ -21,10 +21,17 @@ public class Player : MonoBehaviour, IDamageable
     private Rigidbody2D rb;
     private Vector2 movementInput;
 
+    private RobotCompanion robo;
+    public bool canDropAI = false;
+    public bool inDropArea = false;
     private void Awake()
     {
         // Initialize the generated class
         inputActions = new PlayerInput();
+        if(robo ==null)
+            robo = FindAnyObjectByType<RobotCompanion>();
+        else
+            Debug.Log("Robo not found");
     }
 
     private void OnEnable()
@@ -56,6 +63,20 @@ public class Player : MonoBehaviour, IDamageable
     {
         // Read value from the "Move" action in the "Player" map
         movementInput = inputActions.Player.Move.ReadValue<Vector2>();
+
+        //Testing purpose: Drop AI companion
+        if(Keyboard.current.spaceKey.wasPressedThisFrame)
+        {
+            if (inDropArea) // player is in drop area
+            {
+                if (canDropAI)
+                    ActivateRobo(false);
+                else
+                    ActivateRobo(true);
+            }
+        }
+              
+        
     }
 
     void FixedUpdate()
@@ -114,4 +135,15 @@ public class Player : MonoBehaviour, IDamageable
         yield return new WaitForSeconds(invulnerabilityDuration - 0.1f);
         isInvulnerable = false;
     }
+
+
+    public void ActivateRobo(bool activate)
+    {
+        if (robo != null)
+            robo.isActive = activate;
+
+        canDropAI = activate; 
+    }
+
+
 }

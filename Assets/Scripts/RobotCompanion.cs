@@ -64,6 +64,7 @@ public class RobotCompanion : MonoBehaviour, PlayerInput.IPlayerActions
     private bool isLaserActive;
 
     private HUD hud; // Reference to HUD for weapon display
+    public bool isActive = true;
     private void Awake()
     {
         inputActions = new PlayerInput();
@@ -73,7 +74,7 @@ public class RobotCompanion : MonoBehaviour, PlayerInput.IPlayerActions
             hud = FindAnyObjectByType<HUD>();
         }
         else
-            Debug.Log("no hud found");
+            Debug.Log("no HUD found");
     }
 
     private void OnEnable()
@@ -108,6 +109,7 @@ public class RobotCompanion : MonoBehaviour, PlayerInput.IPlayerActions
 
     private void Update()
     {
+        if (!isActive) return;
         // 1. Scan logic
         if (!manualLockOn || currentTarget == null)
         {
@@ -121,6 +123,7 @@ public class RobotCompanion : MonoBehaviour, PlayerInput.IPlayerActions
 
     private void FixedUpdate()
     {
+        if (!isActive) return;
         HandleMovement();
         HandleRotation();
     }
