@@ -88,6 +88,10 @@ public class ESniper : EnemyBase
                 {
                     target.TakeDamage(damage);
                 }
+                else
+                {
+                    player.GetComponent<PlayerHealth>().TakeDamage((int)damage);
+                }
                 break; // Stop ray after hitting player
             }
         }

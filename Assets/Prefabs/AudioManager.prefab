@@ -306,7 +306,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   musicSource: {fileID: 7326343332002922892}
   sfxSource: {fileID: 6263571850949496901}
-  backgroundMusic: {fileID: 0}
+  backgroundMusic: {fileID: 8300000, guid: bbd02d851f252d947bdb6e472aecb937, type: 3}
   BtnClick: {fileID: 8300000, guid: 1dd6bbdda6f81024fa17e98eb3c39952, type: 3}
   GlassBreak: {fileID: 8300000, guid: b7f8b92364fff9c4496d34665c399ac1, type: 3}
   BulletFire: {fileID: 0}

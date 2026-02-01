@@ -224,7 +224,7 @@ public class RobotCompanion : MonoBehaviour, PlayerInput.IPlayerActions
             IDamageable damageable = col.GetComponent<IDamageable>();
             if (damageable == null) damageable = col.GetComponentInParent<IDamageable>();
             if (damageable == null) damageable = col.GetComponentInChildren<IDamageable>();
-            
+            Debug.Log(damageable);
             if (damageable != null)
             {
                 allTargetsInRange.Add(col.transform); // Add to potential list

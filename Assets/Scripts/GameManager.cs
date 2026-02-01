@@ -46,7 +46,7 @@ public class GameManager : MonoBehaviour
     //Call this function when player dies
     public void GameOver()
     {
-        SceneManager.LoadScene("GameOverScene");
+        SceneManager.LoadScene("GameOverScreen");
     }
     public void PauseGame()
     {

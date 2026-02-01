@@ -420,6 +420,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1620530893931093504, guid: 3f8c2f58ad48fdb41bc252bc1cc70283, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1620530893931093504, guid: 3f8c2f58ad48fdb41bc252bc1cc70283, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4655486746946054109, guid: 3f8c2f58ad48fdb41bc252bc1cc70283, type: 3}
       propertyPath: healthBarObj
       value: 

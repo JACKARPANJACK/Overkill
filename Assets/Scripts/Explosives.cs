@@ -1,14 +1,38 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Explosives : Destructible
 {
     [Header("Explosion Settings")]
     public float explosionRadius = 3f;
-    public float explosionDamage = 100f;
+    public float explosionDamage = 50f;
 
     [Header("Visuals")]
     public GameObject explosionVFX; // The Boom Particle
     public GameObject firePuddlePrefab; // The Oil Puddle (Leave empty for TNT)
+
+    [SerializeField] private Animator animator;
+    private void Awake()
+    {
+        animator.enabled = false;
+    }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+
+
+        if (other.CompareTag("Player") || other.CompareTag("Bullet") || other.CompareTag("Robot"))
+        {
+            Die();
+            animator.enabled = true;
+            if(other.CompareTag("Player"))
+            {
+                other.GetComponent<PlayerHealth>().TakeDamage((int)explosionDamage);
+            }
+
+            Destroy(gameObject,1.5f);
+
+        }
+    }
 
     // Override the "Die" function from the Destructible script
     protected override void Die()

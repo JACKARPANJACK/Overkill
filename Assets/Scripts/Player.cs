@@ -152,6 +152,8 @@ public class Player : MonoBehaviour, IDamageable
 
         // Disable further logic
         enabled = false;
+
+        GameManager.Instance.GameOver();
     }
 
     private IEnumerator InvulnerabilityFlash()
