@@ -65,8 +65,16 @@ public class GameManager : MonoBehaviour
     public void NextLevel()
     {
         cur_level++;
-        //SceneManager.LoadScene("Level_" + cur_level);
-        SceneManager.LoadScene("TitleScreen");
+        if(cur_level > 2)
+        {
+            //Load Title Screen after last level
+            SceneManager.LoadScene("TitleScreen");
+            cur_level = 1; //reset to level 1
+            score = 0; //reset score
+            return;
+        }
+        SceneManager.LoadScene("level_" + cur_level);
+        //SceneManager.LoadScene("TitleScreen");
     }
 
     public void updateScore(int value) => score += value;

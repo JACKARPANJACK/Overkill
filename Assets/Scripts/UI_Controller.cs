@@ -19,7 +19,7 @@ public class UI_Controller : MonoBehaviour
     //All UI Button Functions Below
     public void onStartBtn()
     {
-        change_scene("SampleScene");
+        change_scene("level_1");
     }
 
     public void onDisplayBtn()
