@@ -15,7 +15,7 @@ public class GlassScript : Destructible
     private void glassBreaked()
     {
         GameObject ToxicGasPrefab = Instantiate(this.ToxicGasPrefab, transform.position, Quaternion.identity);
-        Destroy(gameObject,5f);
+        Destroy(gameObject);
     }
 
     protected override void Die()
