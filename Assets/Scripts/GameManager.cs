@@ -66,7 +66,7 @@ public class GameManager : MonoBehaviour
     {
         cur_level++;
         //SceneManager.LoadScene("Level_" + cur_level);
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("TitleScreen");
     }
 
     public void updateScore(int value) => score += value;
