@@ -238,10 +238,10 @@ public class RobotCompanion : MonoBehaviour, PlayerInput.IPlayerActions
             }
         }
 
-        if(closest != null) {chat.chat("Found oneee!!!"); }
+        if (closest != null && chat != null) { chat.chat("Found oneee!!!"); }
         currentTarget = closest;
     }
-    
+
     // --- Input Callbacks ---
     public void OnMove(InputAction.CallbackContext context) { }
     
@@ -286,7 +286,7 @@ public class RobotCompanion : MonoBehaviour, PlayerInput.IPlayerActions
                 currentWeapon = (WeaponType)(((int)currentWeapon + 1) % 3);
                 if(hud != null)
                     hud.NextWeapon();
-                chat.chat("Time to switch weapon");
+                if (chat != null) chat.chat("Time to switch weapon");
             }
             else if (scrollValue < 0)
             {
@@ -295,7 +295,7 @@ public class RobotCompanion : MonoBehaviour, PlayerInput.IPlayerActions
                 currentWeapon = (WeaponType)prev;
                 if(hud != null)
                     hud.PreviousWeapon();
-                chat.chat("Time to use this");
+                if (chat != null) chat.chat("Time to use this");
             }
             Debug.Log($"[Robot] Changed Weapon to: {currentWeapon}");
         }
