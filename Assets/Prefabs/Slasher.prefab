@@ -141,7 +141,7 @@ MonoBehaviour:
   rotationSpeed: 5
   explosionRadius: 3
   explosionDamage: 40
-  explosionEffectPrefab: {fileID: 0}
+  explosionEffectPrefab: {fileID: 1780597529231468972, guid: 6c5e19eb89d125e4f85537abf6ba42f5, type: 3}
   damageLayers:
     serializedVersion: 2
     m_Bits: 0

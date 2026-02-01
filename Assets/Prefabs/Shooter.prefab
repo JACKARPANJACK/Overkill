@@ -141,7 +141,7 @@ MonoBehaviour:
   rotationSpeed: 5
   explosionRadius: 3
   explosionDamage: 40
-  explosionEffectPrefab: {fileID: 0}
+  explosionEffectPrefab: {fileID: 1780597529231468972, guid: 6c5e19eb89d125e4f85537abf6ba42f5, type: 3}
   damageLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -150,7 +150,7 @@ MonoBehaviour:
     m_Bits: 128
   neverStopsChasing: 0
   bulletPrefab: {fileID: 3661658785355087228, guid: c0049475b49e4254da02fb230c009fb5, type: 3}
-  firePoint: {fileID: 0}
+  firePoint: {fileID: 6443665806920404806, guid: f95bc29cae5263944bd8a78901a2a18b, type: 3}
   fireRate: 1.5
 --- !u!70 &1001451835536223322
 CapsuleCollider2D:
