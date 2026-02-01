@@ -41,9 +41,15 @@ public class GameManager : MonoBehaviour
 
     public void RestartLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene("Level_" + cur_level);
+        
     }
 
+    //Call this function when player dies
+    public void GameOver()
+    {
+        SceneManager.LoadScene("GameOverScene");
+    }
     public void PauseGame()
     {
         Time.timeScale = 0;
