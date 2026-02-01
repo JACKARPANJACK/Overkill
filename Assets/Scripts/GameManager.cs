@@ -60,4 +60,9 @@ public class GameManager : MonoBehaviour
         //SceneManager.LoadScene("Level_" + cur_level);
         SceneManager.LoadScene("SampleScene");
     }
+
+    public void updateScore()
+    {
+        score += 10;
+    }
 }
