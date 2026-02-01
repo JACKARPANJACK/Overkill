@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class GlassScript : Destructible
 {
+
     [SerializeField]private GameObject ToxicGasPrefab;
 
 
@@ -14,6 +15,7 @@ public class GlassScript : Destructible
 
     private void glassBreaked()
     {
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.GlassBreak);
         GameObject ToxicGasPrefab = Instantiate(this.ToxicGasPrefab, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
