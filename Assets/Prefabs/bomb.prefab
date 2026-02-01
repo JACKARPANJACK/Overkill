@@ -108,9 +108,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Explosives
   maxHealth: 100
   explosionRadius: 0.7
-  explosionDamage: 100
+  explosionDamage: 50
   explosionVFX: {fileID: 4120188244166940700}
   firePuddlePrefab: {fileID: 0}
+  animator: {fileID: 904880485086414560}
 --- !u!58 &7527650462946557765
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -141,7 +142,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0

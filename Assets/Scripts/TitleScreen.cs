@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 
@@ -7,11 +8,13 @@ public class TitleScreen : MonoBehaviour
 
     private void Start()
     {
-     AudioManager.Instance.PlayMusic(AudioManager.Instance.backgroundMusic);
+        GameManager.Instance.cur_level = 1;
+
+        AudioManager.Instance.PlayMusic(AudioManager.Instance.backgroundMusic);
     }
     public void onStartBtn()
     {
-        Debug.Log("Start Button");
+        SceneManager.LoadScene("level_1");
     }
 
 

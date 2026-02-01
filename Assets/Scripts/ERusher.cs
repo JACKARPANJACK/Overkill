@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class ERusher : EnemyBase
 {
-    public float damage = 10f;
+    public int damage = 10;
     public float attackRate = 1f;
     private float nextAttackTime;
 
@@ -12,7 +12,7 @@ public class ERusher : EnemyBase
         if (Time.time >= nextAttackTime)
         {
             // Assume Player has a "PlayerHealth" script
-            // player.GetComponent<PlayerHealth>().TakeDamage(damage);
+            player.GetComponent<PlayerHealth>().TakeDamage(damage);
             Debug.Log("STAB!");
             nextAttackTime = Time.time + attackRate;
         }
