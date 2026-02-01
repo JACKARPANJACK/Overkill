@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public bool isPaused=false;
     public int score=0;
     public int cur_level=1; // current level
+    public int cur_weaponIdx = 0; // current weapon index
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
     private static void AutoCreate()
     {

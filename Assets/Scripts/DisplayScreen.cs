@@ -8,10 +8,16 @@ public class DisplayScreen : MonoBehaviour
         new Vector2(1600, 900),
         new Vector2(1920, 1080)
     };
+    private Vector2 selectedResolution;
 
     public void onResolutionBtn(int index)
     {
-        Vector2 resolution = screenResolution[index];
-        Screen.SetResolution((int)resolution.x, (int)resolution.y, Screen.fullScreen);
+        selectedResolution = screenResolution[index];
+        
+    }
+
+    public void applySettings()
+    {
+        Screen.SetResolution((int)selectedResolution.x, (int)selectedResolution.y, Screen.fullScreen);
     }
 }
