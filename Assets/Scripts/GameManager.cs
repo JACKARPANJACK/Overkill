@@ -39,11 +39,9 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(sceneName);
     }
 
-    public void RestartLevel()
-    {
-        SceneManager.LoadScene("Level_" + cur_level);
+    public void RestartLevel() => SceneManager.LoadScene("level_" + cur_level);
         
-    }
+
 
     //Call this function when player dies
     public void GameOver()
@@ -65,8 +63,16 @@ public class GameManager : MonoBehaviour
     public void NextLevel()
     {
         cur_level++;
-        //SceneManager.LoadScene("Level_" + cur_level);
-        SceneManager.LoadScene("TitleScreen");
+        if(cur_level > 2)
+        {
+            //Load Title Screen after last level
+            SceneManager.LoadScene("TitleScreen");
+            cur_level = 1; //reset to level 1
+            score = 0; //reset score
+            return;
+        }
+        SceneManager.LoadScene("level_" + cur_level);
+        //SceneManager.LoadScene("TitleScreen");
     }
 
     public void updateScore(int value) => score += value;
