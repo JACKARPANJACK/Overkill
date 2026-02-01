@@ -63,10 +63,17 @@ public class RobotCompanion : MonoBehaviour, PlayerInput.IPlayerActions
     private float nextLaserTime;
     private bool isLaserActive;
 
+    private HUD hud; // Reference to HUD for weapon display
     private void Awake()
     {
         inputActions = new PlayerInput();
         inputActions.Player.SetCallbacks(this);
+        if(hud == null)
+        {
+            hud = FindAnyObjectByType<HUD>();
+        }
+        else
+            Debug.Log("no hud found");
     }
 
     private void OnEnable()
@@ -268,12 +275,19 @@ public class RobotCompanion : MonoBehaviour, PlayerInput.IPlayerActions
         if (context.performed)
         {
             float scrollValue = context.ReadValue<Vector2>().y;
-            if (scrollValue > 0) currentWeapon = (WeaponType)(((int)currentWeapon + 1) % 3);
+            if (scrollValue > 0)
+            {
+                currentWeapon = (WeaponType)(((int)currentWeapon + 1) % 3);
+                if(hud != null)
+                    hud.NextWeapon();
+            }
             else if (scrollValue < 0)
             {
                 int prev = (int)currentWeapon - 1;
                 if (prev < 0) prev = 2;
                 currentWeapon = (WeaponType)prev;
+                if(hud != null)
+                    hud.PreviousWeapon();
             }
             Debug.Log($"[Robot] Changed Weapon to: {currentWeapon}");
         }
