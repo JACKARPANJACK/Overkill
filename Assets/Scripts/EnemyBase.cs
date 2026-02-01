@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public abstract class EnemyBase : Destructible
@@ -7,8 +7,8 @@ public abstract class EnemyBase : Destructible
     [SerializeField] protected State currentState = State.Guarding;
 
     [Header("AI Settings")]
-    public float detectionRadius = 8f;   
-    public float attackRange = 2f;       
+    public float detectionRadius = 8f;
+    public float attackRange = 2f;
     public float moveSpeed = 3f;
     public float rotationSpeed = 5f;
 
@@ -16,7 +16,7 @@ public abstract class EnemyBase : Destructible
     [SerializeField] private float explosionRadius = 3f;
     [SerializeField] private float explosionDamage = 40f;
     [SerializeField] private GameObject explosionEffectPrefab;
-    [SerializeField] private LayerMask damageLayers; // Layers to hit (Player, Other Enemies)
+    [SerializeField] private LayerMask damageLayers;
 
     [Header("Vision Settings")]
     public LayerMask viewBlockerMask;
@@ -26,12 +26,19 @@ public abstract class EnemyBase : Destructible
     protected Transform player;
     protected Rigidbody2D rb;
 
+    // 🔹 ADDED: Sprite reference for flipping
+    protected SpriteRenderer spriteRenderer;
+
     protected override void Start()
     {
         base.Start();
+
         rb = GetComponent<Rigidbody2D>();
         rb.gravityScale = 0;
         rb.freezeRotation = true;
+
+        // 🔹 ADDED: Cache sprite renderer (supports child sprites)
+        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
 
         GameObject p = GameObject.FindGameObjectWithTag("Player");
         if (p) player = p.transform;
@@ -39,51 +46,44 @@ public abstract class EnemyBase : Destructible
         guardPosition = transform.position;
     }
 
-    // NEW: Override OnHit from Destructible to react to damage
     protected override void OnHit()
     {
-        // If we are hit while guarding or returning, wake up and fight!
         if (currentState == State.Guarding || currentState == State.Returning)
         {
             currentState = State.Chasing;
-            
-            // Optional: If we want to look at the player immediately upon hit
+
             if (player != null)
             {
                 SmoothLookAt(player.position);
+                FaceTarget(player.position);   // 🔹 ADDED
             }
         }
     }
 
     protected override void Die()
     {
-        // 1. Splash Damage Logic
         if (explosionRadius > 0)
         {
             Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, explosionRadius, damageLayers);
             foreach (var hit in hits)
             {
-                // Don't damage self (already dead)
                 if (hit.gameObject == gameObject) continue;
 
                 IDamageable damageable = hit.GetComponent<IDamageable>();
                 if (damageable == null) damageable = hit.GetComponentInParent<IDamageable>();
-                
+
                 if (damageable != null)
                 {
                     damageable.TakeDamage(explosionDamage);
-                    Debug.Log($"Enemy Explosion hit: {hit.name}");
                 }
             }
         }
 
-        // 2. Visual Effect
         if (explosionEffectPrefab != null)
         {
             Instantiate(explosionEffectPrefab, transform.position, Quaternion.identity);
         }
 
-        // 3. Destroy
         base.Die();
     }
 
@@ -98,11 +98,14 @@ public abstract class EnemyBase : Destructible
         {
             case State.Guarding:
                 rb.linearVelocity = Vector2.zero;
-                
+
                 if (distToPlayer < detectionRadius)
                 {
                     SmoothLookAt(player.position);
-                    if (hasClearLineOfSight) currentState = State.Chasing;
+                    FaceTarget(player.position);   // 🔹 ADDED
+
+                    if (hasClearLineOfSight)
+                        currentState = State.Chasing;
                 }
                 break;
 
@@ -110,39 +113,36 @@ public abstract class EnemyBase : Destructible
                 MoveTowards(player.position);
 
                 if (distToPlayer <= attackRange && hasClearLineOfSight)
-                {
                     currentState = State.Attacking;
-                }
                 else if (!hasClearLineOfSight && !neverStopsChasing)
-                {
                     currentState = State.Returning;
-                }
                 break;
 
             case State.Attacking:
                 rb.linearVelocity = Vector2.zero;
+
                 SmoothLookAt(player.position);
+                FaceTarget(player.position);       // 🔹 ADDED
                 PerformAttack();
 
                 if (distToPlayer > attackRange * 1.5f || !hasClearLineOfSight)
-                {
                     currentState = State.Chasing;
-                }
                 break;
 
             case State.Returning:
                 MoveTowards(guardPosition);
-                
+
                 if (distToPlayer < detectionRadius)
                 {
                     SmoothLookAt(player.position);
-                    if (hasClearLineOfSight) currentState = State.Chasing;
+                    FaceTarget(player.position);   // 🔹 ADDED
+
+                    if (hasClearLineOfSight)
+                        currentState = State.Chasing;
                 }
 
                 if (Vector2.Distance(transform.position, guardPosition) < 0.1f)
-                {
                     currentState = State.Guarding;
-                }
                 break;
         }
     }
@@ -151,7 +151,17 @@ public abstract class EnemyBase : Destructible
     {
         Vector2 direction = (targetPos - (Vector2)transform.position).normalized;
         rb.linearVelocity = direction * moveSpeed;
+
         SmoothLookAt(targetPos);
+        FaceTarget(targetPos);   // 🔹 ADDED
+    }
+
+    // 🔹 ADDED: Sprite flip logic
+    protected void FaceTarget(Vector2 targetPos)
+    {
+        if (spriteRenderer == null) return;
+
+        spriteRenderer.flipX = targetPos.x > transform.position.x;
     }
 
     protected void SmoothLookAt(Vector2 targetPos)
@@ -159,6 +169,7 @@ public abstract class EnemyBase : Destructible
         Vector2 direction = targetPos - (Vector2)transform.position;
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         angle -= 90;
+
         Quaternion targetRotation = Quaternion.AngleAxis(angle, Vector3.forward);
         transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
     }
@@ -174,7 +185,6 @@ public abstract class EnemyBase : Destructible
 
     private void OnDrawGizmos()
     {
-        // Draw Explosion Radius in Editor
         Gizmos.color = new Color(1, 0, 0, 0.3f);
         Gizmos.DrawWireSphere(transform.position, explosionRadius);
     }
