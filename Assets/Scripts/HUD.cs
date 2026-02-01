@@ -53,7 +53,7 @@ public class HUD : MonoBehaviour
     //for testing purpose only
     void Update()
     {
-        if(Keyboard.current.escapeKey.wasPressedThisFrame)
+        if(Keyboard.current.escapeKey.isPressed)
         {
             if (GameManager.Instance.isPaused)
             {

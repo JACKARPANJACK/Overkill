@@ -16,8 +16,10 @@ public class GlassScript : Destructible
     private void glassBreaked()
     {
         AudioManager.Instance.PlaySFX(AudioManager.Instance.GlassBreak);
+
+        //Toxic gas is leaked when glass is broken
         GameObject ToxicGasPrefab = Instantiate(this.ToxicGasPrefab, transform.position, Quaternion.identity);
-        Destroy(gameObject);
+        Destroy(gameObject); //destroy glass object
     }
 
     protected override void Die()

@@ -88,7 +88,7 @@ public class Player : MonoBehaviour, IDamageable
         movementInput = inputActions.Player.Move.ReadValue<Vector2>();
 
         //Testing purpose: Drop AI companion
-        if(Keyboard.current.spaceKey.wasPressedThisFrame)
+        if(Keyboard.current.spaceKey.isPressed)
         {
             if (inDropArea) // player is in drop area
             {

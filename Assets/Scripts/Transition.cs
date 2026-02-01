@@ -10,9 +10,16 @@ public class Transition : MonoBehaviour
         animator = GetComponent<Animator>();
         animator.enabled = false;
     }
+
+    //public void Start()
+    //{
+    //   startTransitionAnimation();
+    //}
     public void animationFinished()
     {
+        Debug.Log("Transition Animation Finished");
         GameManager.Instance.NextLevel();
+
     }
 
     //call this function to start level transition
