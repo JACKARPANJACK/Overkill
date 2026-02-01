@@ -14,10 +14,4 @@ public class PauseScreen : MonoBehaviour
             gameObject.SetActive(false);
     }
 
-    public void onRestartBtn()
-    {
-        gameObject.SetActive(false);
-        GameManager.Instance.RestartLevel(); 
-
-    }
 }

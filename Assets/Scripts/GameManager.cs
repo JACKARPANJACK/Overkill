@@ -9,6 +9,8 @@ public class GameManager : MonoBehaviour
     public int score=0;
     public int cur_level=1; // current level
     public int cur_weaponIdx = 0; // current weapon index
+    public bool isGameOver = false;
+    public bool musicOn = true;
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
     private static void AutoCreate()
     {
@@ -61,8 +63,5 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene("SampleScene");
     }
 
-    public void updateScore(int value)
-    {
-        score += value;
-    }
+    public void updateScore(int value) => score += value;
 }

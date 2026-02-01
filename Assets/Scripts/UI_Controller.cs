@@ -11,6 +11,7 @@ public class UI_Controller : MonoBehaviour
 
     private void change_scene(string scene_name)
     {
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.BtnClick);
         SceneManager.LoadScene(scene_name);
     }
 
@@ -49,10 +50,9 @@ public class UI_Controller : MonoBehaviour
 
     public void toggleMusic(bool toggle)
     {
-        if (toggle)
-            Debug.Log("Music Enabled");
-        else
-            Debug.Log("Music Disabled");
+        
+        GameManager.Instance.musicOn = toggle;
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.BtnClick);
     }
 
     public void onExitBtn()

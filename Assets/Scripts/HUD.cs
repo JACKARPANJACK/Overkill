@@ -53,6 +53,20 @@ public class HUD : MonoBehaviour
     //for testing purpose only
     void Update()
     {
+        if(Keyboard.current.escapeKey.wasPressedThisFrame)
+        {
+            if (GameManager.Instance.isPaused)
+            {
+                GameManager.Instance.ResumeGame();
+                pauseScreen.gameObject.SetActive(false);
+            }
+            else
+            {
+                GameManager.Instance.PauseGame();
+                pauseScreen.gameObject.SetActive(true);
+            }
+        }
+
         updateScoreText();
 
     }
