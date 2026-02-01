@@ -308,7 +308,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 523744258783269221}
         m_TargetAssemblyTypeName: UI_Controller, Assembly-CSharp
-        m_MethodName: BackToTitle
+        m_MethodName: BackToOptions
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
