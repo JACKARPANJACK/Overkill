@@ -219,7 +219,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -8946236006385004427, guid: c5d6f3c4a5dcc5041b48b6af9533e983, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -392,8 +392,9 @@ MonoBehaviour:
   weaponDisplay: {fileID: 1713934192395699227}
   weapons:
   - {fileID: -8946236006385004427, guid: c5d6f3c4a5dcc5041b48b6af9533e983, type: 3}
-  - {fileID: -6914981209264403514, guid: e267f5dc649f6ef4587b08947372d77b, type: 3}
   - {fileID: -8410989693735187505, guid: 32ef8b58d35a7c94e932d6034b6f6f82, type: 3}
+  - {fileID: 4164744761163438241, guid: b771e9a65bf9aa64d8c09507cda84693, type: 3}
+  ScoreText: {fileID: 3311048763937073788}
 --- !u!1 &4329302019115261537
 GameObject:
   m_ObjectHideFlags: 0

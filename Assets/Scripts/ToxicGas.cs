@@ -6,14 +6,24 @@ public class ToxicGas : MonoBehaviour
     private int damage = 5;
     private int max_radius = 3;
     private float expansionRate = 0.5f;
+    private float startTime = 0f;
+    private float endTime = 7f;
     private void Awake()
     {
         toxicGasCollider = GetComponent<CircleCollider2D>();
     }
 
+    private void Start()
+    {
+        startTime = Time.time;
+    }
+
     void Update()
     {
-        if(toxicGasCollider.radius < max_radius)
+        if (Time.time - startTime > endTime)
+            Destroy(gameObject);
+
+        if (toxicGasCollider.radius < max_radius)
         {
             toxicGasCollider.radius += expansionRate * Time.deltaTime;
 

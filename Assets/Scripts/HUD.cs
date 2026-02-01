@@ -6,11 +6,15 @@ public class HUD : MonoBehaviour
 { 
     [SerializeField] private PauseScreen pauseScreen;
     [SerializeField] private GameObject weaponDisplay;
-    [SerializeField]Sprite[] weapons = new Sprite[3];
+    [SerializeField] private Sprite[] weapons = new Sprite[3];
+    [SerializeField] private Text ScoreText;
+
     private void Awake()
     {
         pauseScreen.gameObject.SetActive(GameManager.Instance.isPaused);
+        ScoreText.text = "Score: " + GameManager.Instance.score;
     }
+
     public void onPauseBtn()
     {
         GameManager.Instance.PauseGame();
@@ -41,19 +45,15 @@ public class HUD : MonoBehaviour
         weaponDisplay.GetComponent<Image>().sprite = weapons[GameManager.Instance.cur_weaponIdx];
     }
 
+    private void updateScoreText()
+    {
+        ScoreText.text = "Score: " + GameManager.Instance.score;
+    }
 
     //for testing purpose only
     void Update()
     {
-        if (Keyboard.current.eKey.wasPressedThisFrame)
-        {
-            NextWeapon();
-            }
-
-        if (Keyboard.current.qKey.wasPressedThisFrame)
-        {
-                PreviousWeapon();
-        }
+        updateScoreText();
 
     }
 

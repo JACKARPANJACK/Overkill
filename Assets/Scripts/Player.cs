@@ -46,10 +46,17 @@ public class Player : MonoBehaviour, IDamageable
      * UNITY LIFECYCLE
      * ========================================================= */
 
+    private RobotCompanion robo;
+    public bool canDropAI = false;
+    public bool inDropArea = false;
     private void Awake()
     {
         // Create instance of the auto-generated Input System class
         inputActions = new PlayerInput();
+        if(robo ==null)
+            robo = FindAnyObjectByType<RobotCompanion>();
+        else
+            Debug.Log("Robo not found");
     }
 
     private void OnEnable()
@@ -80,6 +87,20 @@ public class Player : MonoBehaviour, IDamageable
         // Read movement input from Input System
         movementInput = inputActions.Player.Move.ReadValue<Vector2>();
 
+        //Testing purpose: Drop AI companion
+        if(Keyboard.current.spaceKey.wasPressedThisFrame)
+        {
+            if (inDropArea) // player is in drop area
+            {
+                if (canDropAI)
+                    ActivateRobo(false);
+                else
+                    ActivateRobo(true);
+            }
+        }
+              
+        
+
         // Normalize direction to avoid faster diagonal movement
         movementDirection = new Vector3(movementInput.x, movementInput.y, 0f).normalized;
 
@@ -88,6 +109,7 @@ public class Player : MonoBehaviour, IDamageable
         animator.SetFloat("moveX", movementInput.x);
         animator.SetFloat("moveY", movementInput.y);
         animator.SetBool("moving", movementInput != Vector2.zero);
+
     }
 
     private void FixedUpdate()
@@ -149,4 +171,15 @@ public class Player : MonoBehaviour, IDamageable
         yield return new WaitForSeconds(invulnerabilityDuration);
         isInvulnerable = false;
     }
+
+
+    public void ActivateRobo(bool activate)
+    {
+        if (robo != null)
+            robo.isActive = activate;
+
+        canDropAI = activate; 
+    }
+
+
 }
