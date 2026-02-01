@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7736465244891920375}
   - component: {fileID: 3111866398012217177}
   - component: {fileID: 7580283861182863708}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Sniper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -140,6 +140,12 @@ MonoBehaviour:
   attackRange: 5
   moveSpeed: 3
   rotationSpeed: 5
+  explosionRadius: 3
+  explosionDamage: 40
+  explosionEffectPrefab: {fileID: 1780597529231468972, guid: 6c5e19eb89d125e4f85537abf6ba42f5, type: 3}
+  damageLayers:
+    serializedVersion: 2
+    m_Bits: 0
   viewBlockerMask:
     serializedVersion: 2
     m_Bits: 64

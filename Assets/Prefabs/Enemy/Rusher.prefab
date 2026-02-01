@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7332908057447123389}
   - component: {fileID: 3653417100053993641}
   - component: {fileID: 719947050685338916}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Rusher
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -139,6 +139,12 @@ MonoBehaviour:
   attackRange: 0.8
   moveSpeed: 3
   rotationSpeed: 5
+  explosionRadius: 3
+  explosionDamage: 40
+  explosionEffectPrefab: {fileID: 1780597529231468972, guid: 6c5e19eb89d125e4f85537abf6ba42f5, type: 3}
+  damageLayers:
+    serializedVersion: 2
+    m_Bits: 0
   viewBlockerMask:
     serializedVersion: 2
     m_Bits: 64

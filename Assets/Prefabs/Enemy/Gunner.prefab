@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1414161210255025953}
   - component: {fileID: 2799864253444606792}
   - component: {fileID: 6211342155946946816}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Gunner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -140,6 +140,12 @@ MonoBehaviour:
   attackRange: 3
   moveSpeed: 3
   rotationSpeed: 5
+  explosionRadius: 3
+  explosionDamage: 40
+  explosionEffectPrefab: {fileID: 1780597529231468972, guid: 6c5e19eb89d125e4f85537abf6ba42f5, type: 3}
+  damageLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
   viewBlockerMask:
     serializedVersion: 2
     m_Bits: 64
@@ -206,7 +212,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6960273463384968885}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: SpawnBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
