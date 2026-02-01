@@ -10,6 +10,16 @@ public class Explosives : Destructible
     public GameObject explosionVFX; // The Boom Particle
     public GameObject firePuddlePrefab; // The Oil Puddle (Leave empty for TNT)
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        
+
+        if (other.CompareTag("Player"))
+        {
+            Die();
+        }
+    }
+
     // Override the "Die" function from the Destructible script
     protected override void Die()
     {
